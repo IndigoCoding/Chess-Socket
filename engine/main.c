@@ -1,28 +1,27 @@
 #include <stdio.h>
 #include "defs.h"
 
+#define FEN1 "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1"
+#define FEN2 "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2"
+#define FEN3 "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+
 int main() {
 
     initAll();
 
-    U64 playBitBoard = 0ULL;
+    S_BOARD board[1];
 
-    playBitBoard |= (1ULL << SQ64(D2));
-    playBitBoard |= (1ULL << SQ64(D3));
-    playBitBoard |= (1ULL << SQ64(D4));
+    parseFen(START_FEN, board);
+    printBoard(board);
 
-    printBitBoard(playBitBoard);
+    parseFen(FEN1, board);
+    printBoard(board);
 
-    int count = COUNT(playBitBoard);
+    parseFen(FEN2, board);
+    printBoard(board);
 
-    printf("Count:%d\n", count);
-
-    int index = POP(&playBitBoard);
-    printf("Index: %d\n", index);
-    printBitBoard(playBitBoard);
-
-    count = COUNT(playBitBoard);
-    printf("Count:%d\n", count);
+    parseFen(FEN3, board);
+    printBoard(board);
 
     return 0;
 }

@@ -3,4 +3,4 @@ project(Network_Programming C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Network_Programming main.c)
+add_executable(Chess_Engine engine/main.c engine/init.c engine/defs.h engine/bitboards.c engine/hashkeys.c engine/board.c engine/data.c)

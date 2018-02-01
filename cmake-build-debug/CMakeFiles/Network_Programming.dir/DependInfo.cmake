@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/Slide bai giang/Network Programming/main.c" "E:/Slide bai giang/Network Programming/cmake-build-debug/CMakeFiles/Network_Programming.dir/main.c.obj"
+  "C:/Users/1918/Documents/Chess-Socket/main.c" "C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/CMakeFiles/Network_Programming.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
