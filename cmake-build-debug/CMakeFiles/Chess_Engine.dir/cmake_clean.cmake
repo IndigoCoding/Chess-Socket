@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Chess_Engine.dir/engine/hashkeys.c.obj"
   "CMakeFiles/Chess_Engine.dir/engine/board.c.obj"
   "CMakeFiles/Chess_Engine.dir/engine/data.c.obj"
+  "CMakeFiles/Chess_Engine.dir/engine/attack.c.obj"
   "Chess_Engine.pdb"
   "Chess_Engine.exe"
   "Chess_Engine.exe.manifest"

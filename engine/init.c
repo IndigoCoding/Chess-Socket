@@ -15,9 +15,34 @@ int sq120ToSq64[BOARD_SQ_NUM];
 int sq64ToSq120[64];
 U64 setMask[64];
 U64 clearMask[64];
+
 U64 pieceKeys[13][120];
 U64 sideKey;
 U64 castleKeys[16];
+
+int filesBoard[BOARD_SQ_NUM];
+int ranksBoard[BOARD_SQ_NUM];
+
+void initFilesRanksBoard() {
+    int i = 0;
+    int file = FILE_A;
+    int rank = RANK_1;
+    int sq = A1;
+    int sq64 = 0;
+
+    for (i = 0; i < BOARD_SQ_NUM; i++) {
+        filesBoard[i] = OFFBOARD;
+        ranksBoard[i] = OFFBOARD;
+    }
+
+    for (rank = RANK_1; rank <= RANK_8; rank++) {
+        for (file = FILE_A; file <= FILE_H; file++) {
+            sq = FR2SQ(file, rank);
+            filesBoard[sq] = file;
+            ranksBoard[sq] = rank;
+        }
+    }
+}
 
 void initHashKeys() {
 
@@ -76,4 +101,5 @@ void initAll() {
     initSq120To64();
     initBitMask();
     initHashKeys();
+    initFilesRanksBoard();
 }

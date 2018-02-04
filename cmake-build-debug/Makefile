@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\1918\Documents\Chess-Socket
+CMAKE_SOURCE_DIR = C:\Users\Admin\Documents\Chess-Socket
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\1918\Documents\Chess-Socket\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Admin\Documents\Chess-Socket\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1918\Documents\Chess-Socket\cmake-build-debug\CMakeFiles C:\Users\1918\Documents\Chess-Socket\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Documents\Chess-Socket\cmake-build-debug\CMakeFiles C:\Users\Admin\Documents\Chess-Socket\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1918\Documents\Chess-Socket\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Documents\Chess-Socket\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -121,6 +121,33 @@ Chess_Engine: cmake_check_build_system
 Chess_Engine/fast:
 	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/build
 .PHONY : Chess_Engine/fast
+
+engine/attack.obj: engine/attack.c.obj
+
+.PHONY : engine/attack.obj
+
+# target to build an object file
+engine/attack.c.obj:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/attack.c.obj
+.PHONY : engine/attack.c.obj
+
+engine/attack.i: engine/attack.c.i
+
+.PHONY : engine/attack.i
+
+# target to preprocess a source file
+engine/attack.c.i:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/attack.c.i
+.PHONY : engine/attack.c.i
+
+engine/attack.s: engine/attack.c.s
+
+.PHONY : engine/attack.s
+
+# target to generate assembly for a file
+engine/attack.c.s:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/attack.c.s
+.PHONY : engine/attack.c.s
 
 engine/bitboards.obj: engine/bitboards.c.obj
 
@@ -293,6 +320,9 @@ help:
 	@echo ... Chess_Engine
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... engine/attack.obj
+	@echo ... engine/attack.i
+	@echo ... engine/attack.s
 	@echo ... engine/bitboards.obj
 	@echo ... engine/bitboards.i
 	@echo ... engine/bitboards.s

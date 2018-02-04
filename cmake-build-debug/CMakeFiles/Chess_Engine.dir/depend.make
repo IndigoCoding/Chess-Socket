@@ -8,6 +8,7 @@ CMakeFiles/Chess_Engine.dir/engine/board.c.obj: ../engine/board.c
 CMakeFiles/Chess_Engine.dir/engine/board.c.obj: ../engine/defs.h
 
 CMakeFiles/Chess_Engine.dir/engine/data.c.obj: ../engine/data.c
+CMakeFiles/Chess_Engine.dir/engine/data.c.obj: ../engine/defs.h
 
 CMakeFiles/Chess_Engine.dir/engine/hashkeys.c.obj: ../engine/defs.h
 CMakeFiles/Chess_Engine.dir/engine/hashkeys.c.obj: ../engine/hashkeys.c

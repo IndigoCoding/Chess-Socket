@@ -103,6 +103,11 @@ typedef struct {
 #define COUNT(b) countBits(b)
 #define CLEARBIT(bb,sq) ((bb) &= clearMask[(sq)])
 #define SETBIT(bb,sq) ((bb) |= setMask[(sq)])
+#define IsBQ(p) (PieceBishopQueen[(p)])
+#define IsRQ(p) (PieceRookQueen[(p)])
+#define IsKn(p) (PieceKnight[(p)])
+#define IsKi(p) (PieceKing[(p)])
+
 
 extern int sq120ToSq64[BOARD_SQ_NUM];
 extern int sq64ToSq120[64];
@@ -122,10 +127,19 @@ extern int pieceMinor[13];
 extern int pieceValue[13];
 extern int pieceColor[13];
 
+extern int filesBoard[BOARD_SQ_NUM];
+extern int ranksBoard[BOARD_SQ_NUM];
+
+extern int pieceKnight[13];
+extern int pieceKing[13];
+extern int pieceRookQueen[13];
+extern int pieceBishopQueen[13];
+
 /*
  * init.c
  */
 extern void initAll();
+extern void initFilesRanksBoard();
 
 /*
  * bitboard.c
@@ -147,3 +161,4 @@ extern void resetBoard(S_BOARD *pos);
 extern int parseFen(char *fen, S_BOARD *pos);
 extern void printBoard(const S_BOARD *pos);
 extern void updateListsMaterial(S_BOARD *pos);
+extern int checkBoard(const S_BOARD *pos);

@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/1918/Documents/Chess-Socket/engine/bitboards.c" "C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir/engine/bitboards.c.obj"
-  "C:/Users/1918/Documents/Chess-Socket/engine/board.c" "C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir/engine/board.c.obj"
-  "C:/Users/1918/Documents/Chess-Socket/engine/data.c" "C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir/engine/data.c.obj"
-  "C:/Users/1918/Documents/Chess-Socket/engine/hashkeys.c" "C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir/engine/hashkeys.c.obj"
-  "C:/Users/1918/Documents/Chess-Socket/engine/init.c" "C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir/engine/init.c.obj"
-  "C:/Users/1918/Documents/Chess-Socket/engine/main.c" "C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir/engine/main.c.obj"
+  "C:/Users/Admin/Documents/Chess-Socket/engine/attack.c" "C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir/engine/attack.c.obj"
+  "C:/Users/Admin/Documents/Chess-Socket/engine/bitboards.c" "C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir/engine/bitboards.c.obj"
+  "C:/Users/Admin/Documents/Chess-Socket/engine/board.c" "C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir/engine/board.c.obj"
+  "C:/Users/Admin/Documents/Chess-Socket/engine/data.c" "C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir/engine/data.c.obj"
+  "C:/Users/Admin/Documents/Chess-Socket/engine/hashkeys.c" "C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir/engine/hashkeys.c.obj"
+  "C:/Users/Admin/Documents/Chess-Socket/engine/init.c" "C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir/engine/init.c.obj"
+  "C:/Users/Admin/Documents/Chess-Socket/engine/main.c" "C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir/engine/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
