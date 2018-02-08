@@ -6,9 +6,8 @@
 #define CHESS_DEFS_H
 
 #include "stdlib.h"
-#include <stdio.h>
 
-#define DEBUG
+//#define DEBUG
 
 #ifndef DEBUG
 #define ASSERT(n)
@@ -29,6 +28,7 @@ typedef unsigned long long U64;
 #define BOARD_SQ_NUM 120
 
 #define MAX_GAME_MOVES 2048
+#define MAX_POSITION_MOVES 256
 
 #define START_FEN  "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
 
@@ -70,6 +70,16 @@ enum {
 
 typedef struct {
     int move;
+    int score;
+} S_MOVE;
+
+typedef struct {
+    S_MOVE moves[MAX_POSITION_MOVES];
+    int count;
+} S_MOVELIST;
+
+typedef struct {
+    int move;
     int castlePermission;
     int enPas;
     int fiftyMove;
@@ -96,6 +106,30 @@ typedef struct {
     int pieceList[13][10];
 } S_BOARD;
 
+//game move
+/*
+0000 0000 0000 0000 0000 0111 1111 -> From 0x7F
+0000 0000 0000 0011 1111 1000 0000 -> To >> 7, 0x7F
+0000 0000 0011 1100 0000 0000 0000 -> Captured >> 14, 0xF
+0000 0000 0100 0000 0000 0000 0000 -> EP 0x40000
+0000 0000 1000 0000 0000 0000 0000 -> Pawn Start 0x80000
+0000 1111 0000 0000 0000 0000 0000 -> Promoted Piece >> 20, 0xF
+0001 0000 0000 0000 0000 0000 0000 -> Castle 0x1000000
+*/
+
+#define FROMSQ(m) ((m) & 0x7F)
+#define TOSQ(m) (((m)>>7) & 0x7F)
+#define CAPTURED(m) (((m)>>14) & 0xF)
+#define PROMOTED(m) (((m)>>20) & 0xF)
+
+#define MFLAGEP 0x40000
+#define MFLAGPS 0x80000
+#define MFLAGCA 0x1000000
+
+#define MFLAGCAP 0x7C000
+#define MFLAGPROM 0xF00000
+
+// MACRO
 #define FR2SQ(f, r) ( (21 + (f) ) + ( (r) * 10 ) )
 #define SQ64(sq120) (sq120ToSq64[(sq120)])
 #define SQ120(sq64) (sq64ToSq120[(sq64)])
@@ -103,10 +137,10 @@ typedef struct {
 #define COUNT(b) countBits(b)
 #define CLEARBIT(bb,sq) ((bb) &= clearMask[(sq)])
 #define SETBIT(bb,sq) ((bb) |= setMask[(sq)])
-#define IsBQ(p) (PieceBishopQueen[(p)])
-#define IsRQ(p) (PieceRookQueen[(p)])
-#define IsKn(p) (PieceKnight[(p)])
-#define IsKi(p) (PieceKing[(p)])
+#define IsBQ(p) (pieceBishopQueen[(p)])
+#define IsRQ(p) (pieceRookQueen[(p)])
+#define IsKn(p) (pieceKnight[(p)])
+#define IsKi(p) (pieceKing[(p)])
 
 
 extern int sq120ToSq64[BOARD_SQ_NUM];
@@ -134,31 +168,49 @@ extern int pieceKnight[13];
 extern int pieceKing[13];
 extern int pieceRookQueen[13];
 extern int pieceBishopQueen[13];
+extern int pieceSlides[13];
+extern int piecePawn[13];
 
-/*
- * init.c
- */
+// init.c
 extern void initAll();
 extern void initFilesRanksBoard();
 
-/*
- * bitboard.c
- */
+// bitboard.c
 extern void printBitBoard(U64 bb);
 extern int popBit(U64 *bb);
 extern int countBits(U64 b);
 
-/*
- * hashkeys.c
- */
+// hashkeys.c
 extern U64 generatePosKey(const S_BOARD *pos);
 #endif //CHESS_DEFS_H
 
-/*
- * board.c
- */
+// board.c
 extern void resetBoard(S_BOARD *pos);
 extern int parseFen(char *fen, S_BOARD *pos);
 extern void printBoard(const S_BOARD *pos);
 extern void updateListsMaterial(S_BOARD *pos);
 extern int checkBoard(const S_BOARD *pos);
+
+// attack.c
+extern int sqAttacked(const int sq, const int side, const S_BOARD *pos);
+
+// io.c
+extern char *printSquare(const int sq);
+extern char *printMove(const int move);
+
+// validate.c
+extern int sqOnBoard(const int sq);
+extern int sideValid(const int side);
+extern int fileRankValid(const int fr);
+extern int pieceValidEmpty(const int pce);
+extern int pieceValid(const int pce);
+
+// movegen.c
+extern void generateAllMoves(const S_BOARD *pos, S_MOVELIST *list);
+
+// makemove.c
+extern int makeMove(S_BOARD *pos, int move);
+extern void takeMove(S_BOARD *pos);
+
+// perft.c
+extern void perftTest(int depth, S_BOARD *pos);

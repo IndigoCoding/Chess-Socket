@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug"/>
+				<Option working_dir="C:/Users/1918/Documents/Chess-Socket/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Chess_Engine">
-				<Option output="C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Chess_Engine.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug"/>
+				<Option output="C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Chess_Engine.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/1918/Documents/Chess-Socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -30,15 +30,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chess_Engine"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chess_Engine"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Chess_Engine/fast">
-				<Option output="C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Chess_Engine.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug"/>
+				<Option output="C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Chess_Engine.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/1918/Documents/Chess-Socket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -49,58 +49,73 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chess_Engine/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chess_Engine/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug"/>
+				<Option working_dir="C:/Users/1918/Documents/Chess-Socket/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug"/>
+				<Option working_dir="C:/Users/1918/Documents/Chess-Socket/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/1918/Documents/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Admin/Documents/Chess-Socket/engine/attack.c">
+		<Unit filename="C:/Users/1918/Documents/Chess-Socket/engine/attack.c">
 			<Option target="Chess_Engine"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/Documents/Chess-Socket/engine/bitboards.c">
+		<Unit filename="C:/Users/1918/Documents/Chess-Socket/engine/bitboards.c">
 			<Option target="Chess_Engine"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/Documents/Chess-Socket/engine/board.c">
+		<Unit filename="C:/Users/1918/Documents/Chess-Socket/engine/board.c">
 			<Option target="Chess_Engine"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/Documents/Chess-Socket/engine/data.c">
+		<Unit filename="C:/Users/1918/Documents/Chess-Socket/engine/data.c">
 			<Option target="Chess_Engine"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/Documents/Chess-Socket/engine/defs.h">
+		<Unit filename="C:/Users/1918/Documents/Chess-Socket/engine/defs.h">
 			<Option target="Chess_Engine"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/Documents/Chess-Socket/engine/hashkeys.c">
+		<Unit filename="C:/Users/1918/Documents/Chess-Socket/engine/hashkeys.c">
 			<Option target="Chess_Engine"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/Documents/Chess-Socket/engine/init.c">
+		<Unit filename="C:/Users/1918/Documents/Chess-Socket/engine/init.c">
 			<Option target="Chess_Engine"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/Documents/Chess-Socket/engine/main.c">
+		<Unit filename="C:/Users/1918/Documents/Chess-Socket/engine/io.c">
 			<Option target="Chess_Engine"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/Documents/Chess-Socket/CMakeLists.txt">
+		<Unit filename="C:/Users/1918/Documents/Chess-Socket/engine/main.c">
+			<Option target="Chess_Engine"/>
+		</Unit>
+		<Unit filename="C:/Users/1918/Documents/Chess-Socket/engine/makemove.c">
+			<Option target="Chess_Engine"/>
+		</Unit>
+		<Unit filename="C:/Users/1918/Documents/Chess-Socket/engine/movegen.c">
+			<Option target="Chess_Engine"/>
+		</Unit>
+		<Unit filename="C:/Users/1918/Documents/Chess-Socket/engine/perft.c">
+			<Option target="Chess_Engine"/>
+		</Unit>
+		<Unit filename="C:/Users/1918/Documents/Chess-Socket/engine/validate.c">
+			<Option target="Chess_Engine"/>
+		</Unit>
+		<Unit filename="C:/Users/1918/Documents/Chess-Socket/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -2,6 +2,7 @@
 // Created by 1918 on 31-Jan-18.
 //
 
+#include <stdio.h>
 #include "defs.h"
 
 U64 generatePosKey(const S_BOARD *pos) {

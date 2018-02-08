@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\Documents\Chess-Socket
+CMAKE_SOURCE_DIR = C:\Users\1918\Documents\Chess-Socket
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\Documents\Chess-Socket\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\1918\Documents\Chess-Socket\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Documents\Chess-Socket\cmake-build-debug\CMakeFiles C:\Users\Admin\Documents\Chess-Socket\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1918\Documents\Chess-Socket\cmake-build-debug\CMakeFiles C:\Users\1918\Documents\Chess-Socket\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Documents\Chess-Socket\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1918\Documents\Chess-Socket\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -284,6 +284,33 @@ engine/init.c.s:
 	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/init.c.s
 .PHONY : engine/init.c.s
 
+engine/io.obj: engine/io.c.obj
+
+.PHONY : engine/io.obj
+
+# target to build an object file
+engine/io.c.obj:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/io.c.obj
+.PHONY : engine/io.c.obj
+
+engine/io.i: engine/io.c.i
+
+.PHONY : engine/io.i
+
+# target to preprocess a source file
+engine/io.c.i:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/io.c.i
+.PHONY : engine/io.c.i
+
+engine/io.s: engine/io.c.s
+
+.PHONY : engine/io.s
+
+# target to generate assembly for a file
+engine/io.c.s:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/io.c.s
+.PHONY : engine/io.c.s
+
 engine/main.obj: engine/main.c.obj
 
 .PHONY : engine/main.obj
@@ -310,6 +337,114 @@ engine/main.s: engine/main.c.s
 engine/main.c.s:
 	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/main.c.s
 .PHONY : engine/main.c.s
+
+engine/makemove.obj: engine/makemove.c.obj
+
+.PHONY : engine/makemove.obj
+
+# target to build an object file
+engine/makemove.c.obj:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/makemove.c.obj
+.PHONY : engine/makemove.c.obj
+
+engine/makemove.i: engine/makemove.c.i
+
+.PHONY : engine/makemove.i
+
+# target to preprocess a source file
+engine/makemove.c.i:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/makemove.c.i
+.PHONY : engine/makemove.c.i
+
+engine/makemove.s: engine/makemove.c.s
+
+.PHONY : engine/makemove.s
+
+# target to generate assembly for a file
+engine/makemove.c.s:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/makemove.c.s
+.PHONY : engine/makemove.c.s
+
+engine/movegen.obj: engine/movegen.c.obj
+
+.PHONY : engine/movegen.obj
+
+# target to build an object file
+engine/movegen.c.obj:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/movegen.c.obj
+.PHONY : engine/movegen.c.obj
+
+engine/movegen.i: engine/movegen.c.i
+
+.PHONY : engine/movegen.i
+
+# target to preprocess a source file
+engine/movegen.c.i:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/movegen.c.i
+.PHONY : engine/movegen.c.i
+
+engine/movegen.s: engine/movegen.c.s
+
+.PHONY : engine/movegen.s
+
+# target to generate assembly for a file
+engine/movegen.c.s:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/movegen.c.s
+.PHONY : engine/movegen.c.s
+
+engine/perft.obj: engine/perft.c.obj
+
+.PHONY : engine/perft.obj
+
+# target to build an object file
+engine/perft.c.obj:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/perft.c.obj
+.PHONY : engine/perft.c.obj
+
+engine/perft.i: engine/perft.c.i
+
+.PHONY : engine/perft.i
+
+# target to preprocess a source file
+engine/perft.c.i:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/perft.c.i
+.PHONY : engine/perft.c.i
+
+engine/perft.s: engine/perft.c.s
+
+.PHONY : engine/perft.s
+
+# target to generate assembly for a file
+engine/perft.c.s:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/perft.c.s
+.PHONY : engine/perft.c.s
+
+engine/validate.obj: engine/validate.c.obj
+
+.PHONY : engine/validate.obj
+
+# target to build an object file
+engine/validate.c.obj:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/validate.c.obj
+.PHONY : engine/validate.c.obj
+
+engine/validate.i: engine/validate.c.i
+
+.PHONY : engine/validate.i
+
+# target to preprocess a source file
+engine/validate.c.i:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/validate.c.i
+.PHONY : engine/validate.c.i
+
+engine/validate.s: engine/validate.c.s
+
+.PHONY : engine/validate.s
+
+# target to generate assembly for a file
+engine/validate.c.s:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/validate.c.s
+.PHONY : engine/validate.c.s
 
 # Help Target
 help:
@@ -338,9 +473,24 @@ help:
 	@echo ... engine/init.obj
 	@echo ... engine/init.i
 	@echo ... engine/init.s
+	@echo ... engine/io.obj
+	@echo ... engine/io.i
+	@echo ... engine/io.s
 	@echo ... engine/main.obj
 	@echo ... engine/main.i
 	@echo ... engine/main.s
+	@echo ... engine/makemove.obj
+	@echo ... engine/makemove.i
+	@echo ... engine/makemove.s
+	@echo ... engine/movegen.obj
+	@echo ... engine/movegen.i
+	@echo ... engine/movegen.s
+	@echo ... engine/perft.obj
+	@echo ... engine/perft.i
+	@echo ... engine/perft.s
+	@echo ... engine/validate.obj
+	@echo ... engine/validate.i
+	@echo ... engine/validate.s
 .PHONY : help
 
 

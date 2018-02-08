@@ -6,39 +6,75 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Admin/Documents/Chess-Socket/engine/bitboards.c
+C:/Users/1918/Documents/Chess-Socket/engine/attack.c
 stdio.h
-C:/Users/Admin/Documents/Chess-Socket/engine/stdio.h
+-
 defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+C:/Users/1918/Documents/Chess-Socket/engine/defs.h
 
-C:/Users/Admin/Documents/Chess-Socket/engine/board.c
+C:/Users/1918/Documents/Chess-Socket/engine/bitboards.c
+stdio.h
+C:/Users/1918/Documents/Chess-Socket/engine/stdio.h
 defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+C:/Users/1918/Documents/Chess-Socket/engine/defs.h
 
-C:/Users/Admin/Documents/Chess-Socket/engine/data.c
+C:/Users/1918/Documents/Chess-Socket/engine/board.c
+stdio.h
+-
 defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+C:/Users/1918/Documents/Chess-Socket/engine/defs.h
 
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+C:/Users/1918/Documents/Chess-Socket/engine/data.c
+defs.h
+C:/Users/1918/Documents/Chess-Socket/engine/defs.h
+
+C:/Users/1918/Documents/Chess-Socket/engine/defs.h
 stdlib.h
-C:/Users/Admin/Documents/Chess-Socket/engine/stdlib.h
-stdio.h
--
+C:/Users/1918/Documents/Chess-Socket/engine/stdlib.h
 
-C:/Users/Admin/Documents/Chess-Socket/engine/hashkeys.c
-defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
-
-C:/Users/Admin/Documents/Chess-Socket/engine/init.c
+C:/Users/1918/Documents/Chess-Socket/engine/hashkeys.c
 stdio.h
 -
 defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+C:/Users/1918/Documents/Chess-Socket/engine/defs.h
 
-C:/Users/Admin/Documents/Chess-Socket/engine/main.c
+C:/Users/1918/Documents/Chess-Socket/engine/init.c
 stdio.h
 -
 defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+C:/Users/1918/Documents/Chess-Socket/engine/defs.h
+
+C:/Users/1918/Documents/Chess-Socket/engine/io.c
+stdio.h
+-
+defs.h
+C:/Users/1918/Documents/Chess-Socket/engine/defs.h
+
+C:/Users/1918/Documents/Chess-Socket/engine/main.c
+stdio.h
+-
+defs.h
+C:/Users/1918/Documents/Chess-Socket/engine/defs.h
+
+C:/Users/1918/Documents/Chess-Socket/engine/makemove.c
+stdio.h
+-
+defs.h
+C:/Users/1918/Documents/Chess-Socket/engine/defs.h
+
+C:/Users/1918/Documents/Chess-Socket/engine/movegen.c
+stdio.h
+-
+defs.h
+C:/Users/1918/Documents/Chess-Socket/engine/defs.h
+
+C:/Users/1918/Documents/Chess-Socket/engine/perft.c
+stdio.h
+-
+defs.h
+C:/Users/1918/Documents/Chess-Socket/engine/defs.h
+
+C:/Users/1918/Documents/Chess-Socket/engine/validate.c
+defs.h
+C:/Users/1918/Documents/Chess-Socket/engine/defs.h
 
