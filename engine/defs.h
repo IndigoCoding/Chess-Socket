@@ -129,6 +129,8 @@ typedef struct {
 #define MFLAGCAP 0x7C000
 #define MFLAGPROM 0xF00000
 
+#define NOMOVE 0
+
 // MACRO
 #define FR2SQ(f, r) ( (21 + (f) ) + ( (r) * 10 ) )
 #define SQ64(sq120) (sq120ToSq64[(sq120)])
@@ -197,6 +199,7 @@ extern int sqAttacked(const int sq, const int side, const S_BOARD *pos);
 // io.c
 extern char *printSquare(const int sq);
 extern char *printMove(const int move);
+extern int parseMove(char* ptrChar, S_BOARD *pos);
 
 // validate.c
 extern int sqOnBoard(const int sq);
