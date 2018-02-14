@@ -1,3 +1,4 @@
-C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir
-C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Admin/Documents/Chess-Socket/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/Slide bai giang/Network Programming/Chess-Socket/cmake-build-debug/CMakeFiles/server.dir
+E:/Slide bai giang/Network Programming/Chess-Socket/cmake-build-debug/CMakeFiles/client.dir
+E:/Slide bai giang/Network Programming/Chess-Socket/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Slide bai giang/Network Programming/Chess-Socket/cmake-build-debug/CMakeFiles/rebuild_cache.dir
