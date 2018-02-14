@@ -81,8 +81,8 @@ int checkBoard(const S_BOARD *pos) {
     ASSERT(pos->enPas == NO_SQ || (ranksBoard[pos->enPas] == RANK_6 && pos->side == WHITE)
            || (ranksBoard[pos->enPas] == RANK_3 && pos->side == BLACK));
 
-    ASSERT(pos->pieces[pos->KingSq[WHITE]] == wK);
-    ASSERT(pos->pieces[pos->KingSq[BLACK]] == bK);
+    ASSERT(pos->pieces[pos->kingSq[WHITE]] == wK);
+    ASSERT(pos->pieces[pos->kingSq[BLACK]] == bK);
 
     return TRUE;
 }
@@ -106,8 +106,8 @@ void updateListsMaterial(S_BOARD *pos) {
             pos->pieceList[piece][pos->pieceNum[piece]] = sq;
             pos->pieceNum[piece]++;
 
-            if (piece == wK) pos->KingSq[WHITE] = sq;
-            if (piece == bK) pos->KingSq[BLACK] = sq;
+            if (piece == wK) pos->kingSq[WHITE] = sq;
+            if (piece == bK) pos->kingSq[BLACK] = sq;
 
             if (piece == wP) {
                 SETBIT(pos->pawns[WHITE], SQ64(sq));
@@ -286,7 +286,7 @@ void resetBoard(S_BOARD *pos) {
         pos->pieceNum[index] = 0;
     }
 
-    pos->KingSq[WHITE] = pos->KingSq[BLACK] = NO_SQ;
+    pos->kingSq[WHITE] = pos->kingSq[BLACK] = NO_SQ;
 
     pos->side = BOTH;
     pos->enPas = NO_SQ;

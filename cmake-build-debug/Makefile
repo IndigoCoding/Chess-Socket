@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\Documents\Chess-Socket
+CMAKE_SOURCE_DIR = C:\Users\1918\Documents\Chess-Socket
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\Documents\Chess-Socket\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\1918\Documents\Chess-Socket\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Documents\Chess-Socket\cmake-build-debug\CMakeFiles C:\Users\Admin\Documents\Chess-Socket\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1918\Documents\Chess-Socket\cmake-build-debug\CMakeFiles C:\Users\1918\Documents\Chess-Socket\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Documents\Chess-Socket\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1918\Documents\Chess-Socket\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -446,6 +446,33 @@ engine/validate.c.s:
 	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/validate.c.s
 .PHONY : engine/validate.c.s
 
+engine/wincheck.obj: engine/wincheck.c.obj
+
+.PHONY : engine/wincheck.obj
+
+# target to build an object file
+engine/wincheck.c.obj:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj
+.PHONY : engine/wincheck.c.obj
+
+engine/wincheck.i: engine/wincheck.c.i
+
+.PHONY : engine/wincheck.i
+
+# target to preprocess a source file
+engine/wincheck.c.i:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/wincheck.c.i
+.PHONY : engine/wincheck.c.i
+
+engine/wincheck.s: engine/wincheck.c.s
+
+.PHONY : engine/wincheck.s
+
+# target to generate assembly for a file
+engine/wincheck.c.s:
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/wincheck.c.s
+.PHONY : engine/wincheck.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -491,6 +518,9 @@ help:
 	@echo ... engine/validate.obj
 	@echo ... engine/validate.i
 	@echo ... engine/validate.s
+	@echo ... engine/wincheck.obj
+	@echo ... engine/wincheck.i
+	@echo ... engine/wincheck.s
 .PHONY : help
 
 

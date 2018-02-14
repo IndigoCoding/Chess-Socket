@@ -134,13 +134,15 @@ static void movePiece(const int from, const int to, S_BOARD *pos) {
     ASSERT(t_PieceNum);
 }
 
-
-void takeMove(S_BOARD *pos) {
+int takeMove(S_BOARD *pos) {
 
     ASSERT(checkBoard(pos));
 
     pos->hisPlay--;
     pos->play--;
+    if (pos->hisPlay < 0) {
+        return FALSE;
+    }
 
     int move = pos->history[pos->hisPlay].move;
     int from = FROMSQ(move);
@@ -191,7 +193,7 @@ void takeMove(S_BOARD *pos) {
     movePiece(to, from, pos);
 
     if (pieceKing[pos->pieces[from]]) {
-        pos->KingSq[pos->side] = from;
+        pos->kingSq[pos->side] = from;
     }
 
     int captured = CAPTURED(move);
@@ -207,6 +209,7 @@ void takeMove(S_BOARD *pos) {
     }
 
     ASSERT(checkBoard(pos));
+    return TRUE;
 }
 
 int makeMove(S_BOARD *pos, int move) {
@@ -300,7 +303,7 @@ int makeMove(S_BOARD *pos, int move) {
     }
 
     if (pieceKing[pos->pieces[to]]) {
-        pos->KingSq[pos->side] = to;
+        pos->kingSq[pos->side] = to;
     }
 
     pos->side ^= 1;
@@ -309,7 +312,7 @@ int makeMove(S_BOARD *pos, int move) {
     ASSERT(checkBoard(pos));
 
 
-    if (sqAttacked(pos->KingSq[side], pos->side, pos)) {
+    if (sqAttacked(pos->kingSq[side], pos->side, pos)) {
         takeMove(pos);
         return FALSE;
     }
