@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\Documents\Chess-Socket
+CMAKE_SOURCE_DIR = "E:\HUST\Term8\Computer Network\Chess-Socket"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\Documents\Chess-Socket\cmake-build-debug
+CMAKE_BINARY_DIR = "E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\Admin\Documents\Chess-Socket\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Documents\Chess-Socket\cmake-build-debug\CMakeFiles C:\Users\Admin\Documents\Chess-Socket\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" "E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Documents\Chess-Socket\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Chess_Engine
+# Target rules for targets named chess
 
 # Build rule for target.
-Chess_Engine: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Chess_Engine
-.PHONY : Chess_Engine
+chess: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 chess
+.PHONY : chess
 
 # fast build rule for target.
-Chess_Engine/fast:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/build
-.PHONY : Chess_Engine/fast
+chess/fast:
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/build
+.PHONY : chess/fast
 
 engine/attack.obj: engine/attack.c.obj
 
@@ -128,7 +128,7 @@ engine/attack.obj: engine/attack.c.obj
 
 # target to build an object file
 engine/attack.c.obj:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/attack.c.obj
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/attack.c.obj
 .PHONY : engine/attack.c.obj
 
 engine/attack.i: engine/attack.c.i
@@ -137,7 +137,7 @@ engine/attack.i: engine/attack.c.i
 
 # target to preprocess a source file
 engine/attack.c.i:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/attack.c.i
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/attack.c.i
 .PHONY : engine/attack.c.i
 
 engine/attack.s: engine/attack.c.s
@@ -146,7 +146,7 @@ engine/attack.s: engine/attack.c.s
 
 # target to generate assembly for a file
 engine/attack.c.s:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/attack.c.s
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/attack.c.s
 .PHONY : engine/attack.c.s
 
 engine/bitboards.obj: engine/bitboards.c.obj
@@ -155,7 +155,7 @@ engine/bitboards.obj: engine/bitboards.c.obj
 
 # target to build an object file
 engine/bitboards.c.obj:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/bitboards.c.obj
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/bitboards.c.obj
 .PHONY : engine/bitboards.c.obj
 
 engine/bitboards.i: engine/bitboards.c.i
@@ -164,7 +164,7 @@ engine/bitboards.i: engine/bitboards.c.i
 
 # target to preprocess a source file
 engine/bitboards.c.i:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/bitboards.c.i
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/bitboards.c.i
 .PHONY : engine/bitboards.c.i
 
 engine/bitboards.s: engine/bitboards.c.s
@@ -173,7 +173,7 @@ engine/bitboards.s: engine/bitboards.c.s
 
 # target to generate assembly for a file
 engine/bitboards.c.s:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/bitboards.c.s
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/bitboards.c.s
 .PHONY : engine/bitboards.c.s
 
 engine/board.obj: engine/board.c.obj
@@ -182,7 +182,7 @@ engine/board.obj: engine/board.c.obj
 
 # target to build an object file
 engine/board.c.obj:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/board.c.obj
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/board.c.obj
 .PHONY : engine/board.c.obj
 
 engine/board.i: engine/board.c.i
@@ -191,7 +191,7 @@ engine/board.i: engine/board.c.i
 
 # target to preprocess a source file
 engine/board.c.i:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/board.c.i
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/board.c.i
 .PHONY : engine/board.c.i
 
 engine/board.s: engine/board.c.s
@@ -200,7 +200,7 @@ engine/board.s: engine/board.c.s
 
 # target to generate assembly for a file
 engine/board.c.s:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/board.c.s
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/board.c.s
 .PHONY : engine/board.c.s
 
 engine/data.obj: engine/data.c.obj
@@ -209,7 +209,7 @@ engine/data.obj: engine/data.c.obj
 
 # target to build an object file
 engine/data.c.obj:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/data.c.obj
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/data.c.obj
 .PHONY : engine/data.c.obj
 
 engine/data.i: engine/data.c.i
@@ -218,7 +218,7 @@ engine/data.i: engine/data.c.i
 
 # target to preprocess a source file
 engine/data.c.i:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/data.c.i
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/data.c.i
 .PHONY : engine/data.c.i
 
 engine/data.s: engine/data.c.s
@@ -227,7 +227,7 @@ engine/data.s: engine/data.c.s
 
 # target to generate assembly for a file
 engine/data.c.s:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/data.c.s
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/data.c.s
 .PHONY : engine/data.c.s
 
 engine/hashkeys.obj: engine/hashkeys.c.obj
@@ -236,7 +236,7 @@ engine/hashkeys.obj: engine/hashkeys.c.obj
 
 # target to build an object file
 engine/hashkeys.c.obj:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/hashkeys.c.obj
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/hashkeys.c.obj
 .PHONY : engine/hashkeys.c.obj
 
 engine/hashkeys.i: engine/hashkeys.c.i
@@ -245,7 +245,7 @@ engine/hashkeys.i: engine/hashkeys.c.i
 
 # target to preprocess a source file
 engine/hashkeys.c.i:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/hashkeys.c.i
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/hashkeys.c.i
 .PHONY : engine/hashkeys.c.i
 
 engine/hashkeys.s: engine/hashkeys.c.s
@@ -254,7 +254,7 @@ engine/hashkeys.s: engine/hashkeys.c.s
 
 # target to generate assembly for a file
 engine/hashkeys.c.s:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/hashkeys.c.s
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/hashkeys.c.s
 .PHONY : engine/hashkeys.c.s
 
 engine/init.obj: engine/init.c.obj
@@ -263,7 +263,7 @@ engine/init.obj: engine/init.c.obj
 
 # target to build an object file
 engine/init.c.obj:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/init.c.obj
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/init.c.obj
 .PHONY : engine/init.c.obj
 
 engine/init.i: engine/init.c.i
@@ -272,7 +272,7 @@ engine/init.i: engine/init.c.i
 
 # target to preprocess a source file
 engine/init.c.i:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/init.c.i
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/init.c.i
 .PHONY : engine/init.c.i
 
 engine/init.s: engine/init.c.s
@@ -281,7 +281,7 @@ engine/init.s: engine/init.c.s
 
 # target to generate assembly for a file
 engine/init.c.s:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/init.c.s
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/init.c.s
 .PHONY : engine/init.c.s
 
 engine/io.obj: engine/io.c.obj
@@ -290,7 +290,7 @@ engine/io.obj: engine/io.c.obj
 
 # target to build an object file
 engine/io.c.obj:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/io.c.obj
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/io.c.obj
 .PHONY : engine/io.c.obj
 
 engine/io.i: engine/io.c.i
@@ -299,7 +299,7 @@ engine/io.i: engine/io.c.i
 
 # target to preprocess a source file
 engine/io.c.i:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/io.c.i
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/io.c.i
 .PHONY : engine/io.c.i
 
 engine/io.s: engine/io.c.s
@@ -308,35 +308,8 @@ engine/io.s: engine/io.c.s
 
 # target to generate assembly for a file
 engine/io.c.s:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/io.c.s
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/io.c.s
 .PHONY : engine/io.c.s
-
-engine/main.obj: engine/main.c.obj
-
-.PHONY : engine/main.obj
-
-# target to build an object file
-engine/main.c.obj:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/main.c.obj
-.PHONY : engine/main.c.obj
-
-engine/main.i: engine/main.c.i
-
-.PHONY : engine/main.i
-
-# target to preprocess a source file
-engine/main.c.i:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/main.c.i
-.PHONY : engine/main.c.i
-
-engine/main.s: engine/main.c.s
-
-.PHONY : engine/main.s
-
-# target to generate assembly for a file
-engine/main.c.s:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/main.c.s
-.PHONY : engine/main.c.s
 
 engine/makemove.obj: engine/makemove.c.obj
 
@@ -344,7 +317,7 @@ engine/makemove.obj: engine/makemove.c.obj
 
 # target to build an object file
 engine/makemove.c.obj:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/makemove.c.obj
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/makemove.c.obj
 .PHONY : engine/makemove.c.obj
 
 engine/makemove.i: engine/makemove.c.i
@@ -353,7 +326,7 @@ engine/makemove.i: engine/makemove.c.i
 
 # target to preprocess a source file
 engine/makemove.c.i:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/makemove.c.i
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/makemove.c.i
 .PHONY : engine/makemove.c.i
 
 engine/makemove.s: engine/makemove.c.s
@@ -362,7 +335,7 @@ engine/makemove.s: engine/makemove.c.s
 
 # target to generate assembly for a file
 engine/makemove.c.s:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/makemove.c.s
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/makemove.c.s
 .PHONY : engine/makemove.c.s
 
 engine/movegen.obj: engine/movegen.c.obj
@@ -371,7 +344,7 @@ engine/movegen.obj: engine/movegen.c.obj
 
 # target to build an object file
 engine/movegen.c.obj:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/movegen.c.obj
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/movegen.c.obj
 .PHONY : engine/movegen.c.obj
 
 engine/movegen.i: engine/movegen.c.i
@@ -380,7 +353,7 @@ engine/movegen.i: engine/movegen.c.i
 
 # target to preprocess a source file
 engine/movegen.c.i:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/movegen.c.i
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/movegen.c.i
 .PHONY : engine/movegen.c.i
 
 engine/movegen.s: engine/movegen.c.s
@@ -389,7 +362,7 @@ engine/movegen.s: engine/movegen.c.s
 
 # target to generate assembly for a file
 engine/movegen.c.s:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/movegen.c.s
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/movegen.c.s
 .PHONY : engine/movegen.c.s
 
 engine/perft.obj: engine/perft.c.obj
@@ -398,7 +371,7 @@ engine/perft.obj: engine/perft.c.obj
 
 # target to build an object file
 engine/perft.c.obj:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/perft.c.obj
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/perft.c.obj
 .PHONY : engine/perft.c.obj
 
 engine/perft.i: engine/perft.c.i
@@ -407,7 +380,7 @@ engine/perft.i: engine/perft.c.i
 
 # target to preprocess a source file
 engine/perft.c.i:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/perft.c.i
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/perft.c.i
 .PHONY : engine/perft.c.i
 
 engine/perft.s: engine/perft.c.s
@@ -416,7 +389,7 @@ engine/perft.s: engine/perft.c.s
 
 # target to generate assembly for a file
 engine/perft.c.s:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/perft.c.s
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/perft.c.s
 .PHONY : engine/perft.c.s
 
 engine/validate.obj: engine/validate.c.obj
@@ -425,7 +398,7 @@ engine/validate.obj: engine/validate.c.obj
 
 # target to build an object file
 engine/validate.c.obj:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/validate.c.obj
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/validate.c.obj
 .PHONY : engine/validate.c.obj
 
 engine/validate.i: engine/validate.c.i
@@ -434,7 +407,7 @@ engine/validate.i: engine/validate.c.i
 
 # target to preprocess a source file
 engine/validate.c.i:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/validate.c.i
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/validate.c.i
 .PHONY : engine/validate.c.i
 
 engine/validate.s: engine/validate.c.s
@@ -443,8 +416,116 @@ engine/validate.s: engine/validate.c.s
 
 # target to generate assembly for a file
 engine/validate.c.s:
-	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/validate.c.s
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/validate.c.s
 .PHONY : engine/validate.c.s
+
+gui/draw.obj: gui/draw.c.obj
+
+.PHONY : gui/draw.obj
+
+# target to build an object file
+gui/draw.c.obj:
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/gui/draw.c.obj
+.PHONY : gui/draw.c.obj
+
+gui/draw.i: gui/draw.c.i
+
+.PHONY : gui/draw.i
+
+# target to preprocess a source file
+gui/draw.c.i:
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/gui/draw.c.i
+.PHONY : gui/draw.c.i
+
+gui/draw.s: gui/draw.c.s
+
+.PHONY : gui/draw.s
+
+# target to generate assembly for a file
+gui/draw.c.s:
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/gui/draw.c.s
+.PHONY : gui/draw.c.s
+
+gui/initSDL.obj: gui/initSDL.c.obj
+
+.PHONY : gui/initSDL.obj
+
+# target to build an object file
+gui/initSDL.c.obj:
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/gui/initSDL.c.obj
+.PHONY : gui/initSDL.c.obj
+
+gui/initSDL.i: gui/initSDL.c.i
+
+.PHONY : gui/initSDL.i
+
+# target to preprocess a source file
+gui/initSDL.c.i:
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/gui/initSDL.c.i
+.PHONY : gui/initSDL.c.i
+
+gui/initSDL.s: gui/initSDL.c.s
+
+.PHONY : gui/initSDL.s
+
+# target to generate assembly for a file
+gui/initSDL.c.s:
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/gui/initSDL.c.s
+.PHONY : gui/initSDL.c.s
+
+gui/mainGUI.obj: gui/mainGUI.c.obj
+
+.PHONY : gui/mainGUI.obj
+
+# target to build an object file
+gui/mainGUI.c.obj:
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/gui/mainGUI.c.obj
+.PHONY : gui/mainGUI.c.obj
+
+gui/mainGUI.i: gui/mainGUI.c.i
+
+.PHONY : gui/mainGUI.i
+
+# target to preprocess a source file
+gui/mainGUI.c.i:
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/gui/mainGUI.c.i
+.PHONY : gui/mainGUI.c.i
+
+gui/mainGUI.s: gui/mainGUI.c.s
+
+.PHONY : gui/mainGUI.s
+
+# target to generate assembly for a file
+gui/mainGUI.c.s:
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/gui/mainGUI.c.s
+.PHONY : gui/mainGUI.c.s
+
+gui/move.obj: gui/move.c.obj
+
+.PHONY : gui/move.obj
+
+# target to build an object file
+gui/move.c.obj:
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/gui/move.c.obj
+.PHONY : gui/move.c.obj
+
+gui/move.i: gui/move.c.i
+
+.PHONY : gui/move.i
+
+# target to preprocess a source file
+gui/move.c.i:
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/gui/move.c.i
+.PHONY : gui/move.c.i
+
+gui/move.s: gui/move.c.s
+
+.PHONY : gui/move.s
+
+# target to generate assembly for a file
+gui/move.c.s:
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/gui/move.c.s
+.PHONY : gui/move.c.s
 
 # Help Target
 help:
@@ -452,7 +533,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Chess_Engine
+	@echo ... chess
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... engine/attack.obj
@@ -476,9 +557,6 @@ help:
 	@echo ... engine/io.obj
 	@echo ... engine/io.i
 	@echo ... engine/io.s
-	@echo ... engine/main.obj
-	@echo ... engine/main.i
-	@echo ... engine/main.s
 	@echo ... engine/makemove.obj
 	@echo ... engine/makemove.i
 	@echo ... engine/makemove.s
@@ -491,6 +569,18 @@ help:
 	@echo ... engine/validate.obj
 	@echo ... engine/validate.i
 	@echo ... engine/validate.s
+	@echo ... gui/draw.obj
+	@echo ... gui/draw.i
+	@echo ... gui/draw.s
+	@echo ... gui/initSDL.obj
+	@echo ... gui/initSDL.i
+	@echo ... gui/initSDL.s
+	@echo ... gui/mainGUI.obj
+	@echo ... gui/mainGUI.i
+	@echo ... gui/mainGUI.s
+	@echo ... gui/move.obj
+	@echo ... gui/move.i
+	@echo ... gui/move.s
 .PHONY : help
 
 

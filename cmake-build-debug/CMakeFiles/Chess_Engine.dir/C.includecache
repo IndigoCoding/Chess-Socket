@@ -6,75 +6,75 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Admin/Documents/Chess-Socket/engine/attack.c
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/attack.c
 stdio.h
 -
 defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h
 
-C:/Users/Admin/Documents/Chess-Socket/engine/bitboards.c
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/bitboards.c
 stdio.h
-C:/Users/Admin/Documents/Chess-Socket/engine/stdio.h
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/stdio.h
 defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h
 
-C:/Users/Admin/Documents/Chess-Socket/engine/board.c
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/board.c
 stdio.h
 -
 defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h
 
-C:/Users/Admin/Documents/Chess-Socket/engine/data.c
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/data.c
 defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h
 
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h
 stdlib.h
-C:/Users/Admin/Documents/Chess-Socket/engine/stdlib.h
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/stdlib.h
 
-C:/Users/Admin/Documents/Chess-Socket/engine/hashkeys.c
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/hashkeys.c
 stdio.h
 -
 defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h
 
-C:/Users/Admin/Documents/Chess-Socket/engine/init.c
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/init.c
 stdio.h
 -
 defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h
 
-C:/Users/Admin/Documents/Chess-Socket/engine/io.c
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/io.c
 stdio.h
 -
 defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h
 
-C:/Users/Admin/Documents/Chess-Socket/engine/main.c
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/main.c
 stdio.h
 -
 defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h
 
-C:/Users/Admin/Documents/Chess-Socket/engine/makemove.c
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/makemove.c
 stdio.h
 -
 defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h
 
-C:/Users/Admin/Documents/Chess-Socket/engine/movegen.c
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/movegen.c
 stdio.h
 -
 defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h
 
-C:/Users/Admin/Documents/Chess-Socket/engine/perft.c
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/perft.c
 stdio.h
 -
 defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h
 
-C:/Users/Admin/Documents/Chess-Socket/engine/validate.c
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/validate.c
 defs.h
-C:/Users/Admin/Documents/Chess-Socket/engine/defs.h
+E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h
 

@@ -1,4 +1,4 @@
-ToolSet: 5.0@C:\MinGW
+ToolSet: 3.20@E:\CodeBlocks\CB\MinGW
 Options: 
 
 Options:
