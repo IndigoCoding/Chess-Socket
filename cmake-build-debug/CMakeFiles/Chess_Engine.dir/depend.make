@@ -37,3 +37,6 @@ CMakeFiles/Chess_Engine.dir/engine/perft.c.obj: ../engine/perft.c
 CMakeFiles/Chess_Engine.dir/engine/validate.c.obj: ../engine/defs.h
 CMakeFiles/Chess_Engine.dir/engine/validate.c.obj: ../engine/validate.c
 
+CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj: ../engine/defs.h
+CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj: ../engine/wincheck.c
+

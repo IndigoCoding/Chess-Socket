@@ -419,6 +419,33 @@ engine/validate.c.s:
 	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/validate.c.s
 .PHONY : engine/validate.c.s
 
+engine/wincheck.obj: engine/wincheck.c.obj
+
+.PHONY : engine/wincheck.obj
+
+# target to build an object file
+engine/wincheck.c.obj:
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/wincheck.c.obj
+.PHONY : engine/wincheck.c.obj
+
+engine/wincheck.i: engine/wincheck.c.i
+
+.PHONY : engine/wincheck.i
+
+# target to preprocess a source file
+engine/wincheck.c.i:
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/wincheck.c.i
+.PHONY : engine/wincheck.c.i
+
+engine/wincheck.s: engine/wincheck.c.s
+
+.PHONY : engine/wincheck.s
+
+# target to generate assembly for a file
+engine/wincheck.c.s:
+	$(MAKE) -f CMakeFiles\chess.dir\build.make CMakeFiles/chess.dir/engine/wincheck.c.s
+.PHONY : engine/wincheck.c.s
+
 gui/draw.obj: gui/draw.c.obj
 
 .PHONY : gui/draw.obj
@@ -569,6 +596,9 @@ help:
 	@echo ... engine/validate.obj
 	@echo ... engine/validate.i
 	@echo ... engine/validate.s
+	@echo ... engine/wincheck.obj
+	@echo ... engine/wincheck.i
+	@echo ... engine/wincheck.s
 	@echo ... gui/draw.obj
 	@echo ... gui/draw.i
 	@echo ... gui/draw.s

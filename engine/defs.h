@@ -89,7 +89,7 @@ typedef struct {
 typedef struct {
     int pieces[BOARD_SQ_NUM];
     U64 pawns[3];
-    int KingSq[2];
+    int kingSq[2];
     int side; // current side to move
     int enPas;
     int fiftyMove;
@@ -213,7 +213,10 @@ extern void generateAllMoves(const S_BOARD *pos, S_MOVELIST *list);
 
 // makemove.c
 extern int makeMove(S_BOARD *pos, int move);
-extern void takeMove(S_BOARD *pos);
+extern int takeMove(S_BOARD *pos);
 
 // perft.c
 extern void perftTest(int depth, S_BOARD *pos);
+
+// wincheck.c
+extern int isCheckmated(S_BOARD *pos);

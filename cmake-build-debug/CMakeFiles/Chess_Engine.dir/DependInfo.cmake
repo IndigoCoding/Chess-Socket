@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/HUST/Term8/Computer Network/Chess-Socket/engine/movegen.c" "E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir/engine/movegen.c.obj"
   "E:/HUST/Term8/Computer Network/Chess-Socket/engine/perft.c" "E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir/engine/perft.c.obj"
   "E:/HUST/Term8/Computer Network/Chess-Socket/engine/validate.c" "E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir/engine/validate.c.obj"
+  "E:/HUST/Term8/Computer Network/Chess-Socket/engine/wincheck.c" "E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

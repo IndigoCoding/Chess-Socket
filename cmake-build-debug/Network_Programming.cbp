@@ -113,6 +113,9 @@
 		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/engine/validate.c">
 			<Option target="Chess_Engine"/>
 		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/engine/wincheck.c">
+			<Option target="Chess_Engine"/>
+		</Unit>
 		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

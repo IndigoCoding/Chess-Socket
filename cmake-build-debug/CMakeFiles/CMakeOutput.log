@@ -15,32 +15,32 @@ The C compiler identification is GNU, found in "E:/HUST/Term8/Computer Network/C
 Determining if the C compiler works passed with the following output:
 Change Dir: E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe" "cmTC_be305/fast"
-E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_be305.dir\build.make CMakeFiles/cmTC_be305.dir/build
+Run Build Command:"E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe" "cmTC_18e41/fast"
+E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_18e41.dir\build.make CMakeFiles/cmTC_18e41.dir/build
 mingw32-make.exe[1]: Entering directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_be305.dir/testCCompiler.c.obj
-E:\CodeBlocks\CB\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_be305.dir\testCCompiler.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
-Linking C executable cmTC_be305.exe
-"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_be305.dir\link.txt --verbose=1
-"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_be305.dir/objects.a
-E:\CodeBlocks\CB\MinGW\bin\ar.exe cr CMakeFiles\cmTC_be305.dir/objects.a @CMakeFiles\cmTC_be305.dir\objects1.rsp
-E:\CodeBlocks\CB\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_be305.dir/objects.a -Wl,--no-whole-archive  -o cmTC_be305.exe -Wl,--out-implib,libcmTC_be305.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_be305.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_18e41.dir/testCCompiler.c.obj
+E:\CodeBlocks\CB\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_18e41.dir\testCCompiler.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+Linking C executable cmTC_18e41.exe
+"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_18e41.dir\link.txt --verbose=1
+"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_18e41.dir/objects.a
+E:\CodeBlocks\CB\MinGW\bin\ar.exe cr CMakeFiles\cmTC_18e41.dir/objects.a @CMakeFiles\cmTC_18e41.dir\objects1.rsp
+E:\CodeBlocks\CB\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_18e41.dir/objects.a -Wl,--no-whole-archive  -o cmTC_18e41.exe -Wl,--out-implib,libcmTC_18e41.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_18e41.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe" "cmTC_52470/fast"
-E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_52470.dir\build.make CMakeFiles/cmTC_52470.dir/build
+Run Build Command:"E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe" "cmTC_31023/fast"
+E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_31023.dir\build.make CMakeFiles/cmTC_31023.dir/build
 mingw32-make.exe[1]: Entering directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_52470.dir/CMakeCCompilerABI.c.obj
-E:\CodeBlocks\CB\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_52470.dir\CMakeCCompilerABI.c.obj   -c "E:\Clion\CLion 2017.3.2\bin\cmake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
-Linking C executable cmTC_52470.exe
-"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_52470.dir\link.txt --verbose=1
-"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_52470.dir/objects.a
-E:\CodeBlocks\CB\MinGW\bin\ar.exe cr CMakeFiles\cmTC_52470.dir/objects.a @CMakeFiles\cmTC_52470.dir\objects1.rsp
-E:\CodeBlocks\CB\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_52470.dir/objects.a -Wl,--no-whole-archive  -o cmTC_52470.exe -Wl,--out-implib,libcmTC_52470.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Building C object CMakeFiles/cmTC_31023.dir/CMakeCCompilerABI.c.obj
+E:\CodeBlocks\CB\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_31023.dir\CMakeCCompilerABI.c.obj   -c "E:\Clion\CLion 2017.3.2\bin\cmake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_31023.exe
+"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_31023.dir\link.txt --verbose=1
+"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_31023.dir/objects.a
+E:\CodeBlocks\CB\MinGW\bin\ar.exe cr CMakeFiles\cmTC_31023.dir/objects.a @CMakeFiles\cmTC_31023.dir\objects1.rsp
+E:\CodeBlocks\CB\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_31023.dir/objects.a -Wl,--no-whole-archive  -o cmTC_31023.exe -Wl,--out-implib,libcmTC_31023.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=E:\CodeBlocks\CB\MinGW\bin\gcc.exe
 COLLECT_LTO_WRAPPER=E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/lto-wrapper.exe
@@ -50,8 +50,8 @@ Thread model: posix
 gcc version 4.9.2 (tdm-1) 
 COMPILER_PATH=E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/;E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/;E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/
 LIBRARY_PATH=E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/;E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/;E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib/;E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52470.exe' '-mtune=generic' '-march=pentiumpro'
- E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/collect2.exe -plugin E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\thann\AppData\Local\Temp\cc3ErWDF.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_52470.exe E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../crt2.o E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/crtbegin.o -LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2 -LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc -LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib -LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../.. --whole-archive CMakeFiles\cmTC_52470.dir/objects.a --no-whole-archive --out-implib libcmTC_52470.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_31023.exe' '-mtune=generic' '-march=pentiumpro'
+ E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/collect2.exe -plugin E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\thann\AppData\Local\Temp\ccw9uGhf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_31023.exe E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../crt2.o E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/crtbegin.o -LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2 -LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc -LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib -LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../.. --whole-archive CMakeFiles\cmTC_31023.dir/objects.a --no-whole-archive --out-implib libcmTC_31023.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/crtend.o
 mingw32-make.exe[1]: Leaving directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -59,16 +59,16 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe" "cmTC_52470/fast"]
-  ignore line: [E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_52470.dir\build.make CMakeFiles/cmTC_52470.dir/build]
+  ignore line: [Run Build Command:"E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe" "cmTC_31023/fast"]
+  ignore line: [E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_31023.dir\build.make CMakeFiles/cmTC_31023.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_52470.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [E:\CodeBlocks\CB\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_52470.dir\CMakeCCompilerABI.c.obj   -c "E:\Clion\CLion 2017.3.2\bin\cmake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"]
-  ignore line: [Linking C executable cmTC_52470.exe]
-  ignore line: ["E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_52470.dir\link.txt --verbose=1]
-  ignore line: ["E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_52470.dir/objects.a]
-  ignore line: [E:\CodeBlocks\CB\MinGW\bin\ar.exe cr CMakeFiles\cmTC_52470.dir/objects.a @CMakeFiles\cmTC_52470.dir\objects1.rsp]
-  ignore line: [E:\CodeBlocks\CB\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_52470.dir/objects.a -Wl,--no-whole-archive  -o cmTC_52470.exe -Wl,--out-implib,libcmTC_52470.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Building C object CMakeFiles/cmTC_31023.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [E:\CodeBlocks\CB\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_31023.dir\CMakeCCompilerABI.c.obj   -c "E:\Clion\CLion 2017.3.2\bin\cmake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_31023.exe]
+  ignore line: ["E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_31023.dir\link.txt --verbose=1]
+  ignore line: ["E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_31023.dir/objects.a]
+  ignore line: [E:\CodeBlocks\CB\MinGW\bin\ar.exe cr CMakeFiles\cmTC_31023.dir/objects.a @CMakeFiles\cmTC_31023.dir\objects1.rsp]
+  ignore line: [E:\CodeBlocks\CB\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_31023.dir/objects.a -Wl,--no-whole-archive  -o cmTC_31023.exe -Wl,--out-implib,libcmTC_31023.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=E:\CodeBlocks\CB\MinGW\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/lto-wrapper.exe]
@@ -83,13 +83,13 @@ Parsed C implicit link information from above output:
   ignore line: [E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/]
   ignore line: [E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib/]
   ignore line: [E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52470.exe' '-mtune=generic' '-march=pentiumpro']
-  link line: [ E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/collect2.exe -plugin E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\thann\AppData\Local\Temp\cc3ErWDF.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_52470.exe E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../crt2.o E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/crtbegin.o -LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2 -LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc -LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib -LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../.. --whole-archive CMakeFiles\cmTC_52470.dir/objects.a --no-whole-archive --out-implib libcmTC_52470.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_31023.exe' '-mtune=generic' '-march=pentiumpro']
+  link line: [ E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/collect2.exe -plugin E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\thann\AppData\Local\Temp\ccw9uGhf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_31023.exe E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../crt2.o E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/crtbegin.o -LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2 -LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc -LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib -LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../.. --whole-archive CMakeFiles\cmTC_31023.dir/objects.a --no-whole-archive --out-implib libcmTC_31023.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/crtend.o]
     arg [E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=E:/CodeBlocks/CB/MinGW/bin/../libexec/gcc/mingw32/4.9.2/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\thann\AppData\Local\Temp\cc3ErWDF.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\thann\AppData\Local\Temp\ccw9uGhf.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
@@ -108,7 +108,7 @@ Parsed C implicit link information from above output:
     arg [--exclude-libs=libpthread.a] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_52470.exe] ==> ignore
+    arg [cmTC_31023.exe] ==> ignore
     arg [E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../crt2.o] ==> ignore
     arg [E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/crtbegin.o] ==> ignore
     arg [-LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2] ==> dir [E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2]
@@ -116,10 +116,10 @@ Parsed C implicit link information from above output:
     arg [-LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib] ==> dir [E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib]
     arg [-LE:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../..] ==> dir [E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_52470.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_31023.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_52470.dll.a] ==> ignore
+    arg [libcmTC_31023.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -156,16 +156,16 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe" "cmTC_66993/fast"
-E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_66993.dir\build.make CMakeFiles/cmTC_66993.dir/build
+Run Build Command:"E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe" "cmTC_cf605/fast"
+E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_cf605.dir\build.make CMakeFiles/cmTC_cf605.dir/build
 mingw32-make.exe[1]: Entering directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_66993.dir/feature_tests.c.obj
-E:\CodeBlocks\CB\MinGW\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_66993.dir\feature_tests.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles\feature_tests.c"
-Linking C executable cmTC_66993.exe
-"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_66993.dir\link.txt --verbose=1
-"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_66993.dir/objects.a
-E:\CodeBlocks\CB\MinGW\bin\ar.exe cr CMakeFiles\cmTC_66993.dir/objects.a @CMakeFiles\cmTC_66993.dir\objects1.rsp
-E:\CodeBlocks\CB\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_66993.dir/objects.a -Wl,--no-whole-archive  -o cmTC_66993.exe -Wl,--out-implib,libcmTC_66993.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_66993.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_cf605.dir/feature_tests.c.obj
+E:\CodeBlocks\CB\MinGW\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_cf605.dir\feature_tests.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_cf605.exe
+"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_cf605.dir\link.txt --verbose=1
+"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_cf605.dir/objects.a
+E:\CodeBlocks\CB\MinGW\bin\ar.exe cr CMakeFiles\cmTC_cf605.dir/objects.a @CMakeFiles\cmTC_cf605.dir\objects1.rsp
+E:\CodeBlocks\CB\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_cf605.dir/objects.a -Wl,--no-whole-archive  -o cmTC_cf605.exe -Wl,--out-implib,libcmTC_cf605.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_cf605.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -178,16 +178,16 @@ mingw32-make.exe[1]: Leaving directory 'E:/HUST/Term8/Computer Network/Chess-Soc
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe" "cmTC_bc8a9/fast"
-E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_bc8a9.dir\build.make CMakeFiles/cmTC_bc8a9.dir/build
+Run Build Command:"E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe" "cmTC_cb413/fast"
+E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_cb413.dir\build.make CMakeFiles/cmTC_cb413.dir/build
 mingw32-make.exe[1]: Entering directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bc8a9.dir/feature_tests.c.obj
-E:\CodeBlocks\CB\MinGW\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_bc8a9.dir\feature_tests.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles\feature_tests.c"
-Linking C executable cmTC_bc8a9.exe
-"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bc8a9.dir\link.txt --verbose=1
-"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_bc8a9.dir/objects.a
-E:\CodeBlocks\CB\MinGW\bin\ar.exe cr CMakeFiles\cmTC_bc8a9.dir/objects.a @CMakeFiles\cmTC_bc8a9.dir\objects1.rsp
-E:\CodeBlocks\CB\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_bc8a9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_bc8a9.exe -Wl,--out-implib,libcmTC_bc8a9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_bc8a9.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_cb413.dir/feature_tests.c.obj
+E:\CodeBlocks\CB\MinGW\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_cb413.dir\feature_tests.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_cb413.exe
+"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_cb413.dir\link.txt --verbose=1
+"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_cb413.dir/objects.a
+E:\CodeBlocks\CB\MinGW\bin\ar.exe cr CMakeFiles\cmTC_cb413.dir/objects.a @CMakeFiles\cmTC_cb413.dir\objects1.rsp
+E:\CodeBlocks\CB\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_cb413.dir/objects.a -Wl,--no-whole-archive  -o cmTC_cb413.exe -Wl,--out-implib,libcmTC_cb413.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_cb413.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -200,16 +200,16 @@ mingw32-make.exe[1]: Leaving directory 'E:/HUST/Term8/Computer Network/Chess-Soc
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe" "cmTC_009fc/fast"
-E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_009fc.dir\build.make CMakeFiles/cmTC_009fc.dir/build
+Run Build Command:"E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe" "cmTC_dcdc7/fast"
+E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_dcdc7.dir\build.make CMakeFiles/cmTC_dcdc7.dir/build
 mingw32-make.exe[1]: Entering directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_009fc.dir/feature_tests.c.obj
-E:\CodeBlocks\CB\MinGW\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_009fc.dir\feature_tests.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles\feature_tests.c"
-Linking C executable cmTC_009fc.exe
-"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_009fc.dir\link.txt --verbose=1
-"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_009fc.dir/objects.a
-E:\CodeBlocks\CB\MinGW\bin\ar.exe cr CMakeFiles\cmTC_009fc.dir/objects.a @CMakeFiles\cmTC_009fc.dir\objects1.rsp
-E:\CodeBlocks\CB\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_009fc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_009fc.exe -Wl,--out-implib,libcmTC_009fc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_009fc.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_dcdc7.dir/feature_tests.c.obj
+E:\CodeBlocks\CB\MinGW\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_dcdc7.dir\feature_tests.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_dcdc7.exe
+"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_dcdc7.dir\link.txt --verbose=1
+"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_dcdc7.dir/objects.a
+E:\CodeBlocks\CB\MinGW\bin\ar.exe cr CMakeFiles\cmTC_dcdc7.dir/objects.a @CMakeFiles\cmTC_dcdc7.dir\objects1.rsp
+E:\CodeBlocks\CB\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_dcdc7.dir/objects.a -Wl,--no-whole-archive  -o cmTC_dcdc7.exe -Wl,--out-implib,libcmTC_dcdc7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_dcdc7.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -220,36 +220,32 @@ mingw32-make.exe[1]: Leaving directory 'E:/HUST/Term8/Computer Network/Chess-Soc
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe" "cmTC_a148f/fast"
+Run Build Command:"E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe" "cmTC_b0b1b/fast"
+E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b0b1b.dir\build.make CMakeFiles/cmTC_b0b1b.dir/build
 mingw32-make.exe[1]: Entering directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
-E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_a148f.dir\build.make CMakeFiles/cmTC_a148f.dir/build
-mingw32-make.exe[2]: Entering directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a148f.dir/CheckIncludeFile.c.obj
-E:\CodeBlocks\CB\MinGW\bin\gcc.exe   -std=gnu99 -o CMakeFiles\cmTC_a148f.dir\CheckIncludeFile.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
-Linking C executable cmTC_a148f.exe
-"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a148f.dir\link.txt --verbose=1
-"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_a148f.dir/objects.a
-E:\CodeBlocks\CB\MinGW\bin\ar.exe cr CMakeFiles\cmTC_a148f.dir/objects.a @CMakeFiles\cmTC_a148f.dir\objects1.rsp
-E:\CodeBlocks\CB\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_a148f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a148f.exe -Wl,--out-implib,libcmTC_a148f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a148f.dir\linklibs.rsp
-mingw32-make.exe[2]: Leaving directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0b1b.dir/CheckIncludeFile.c.obj
+E:\CodeBlocks\CB\MinGW\bin\gcc.exe   -std=gnu99 -o CMakeFiles\cmTC_b0b1b.dir\CheckIncludeFile.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTC_b0b1b.exe
+"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b0b1b.dir\link.txt --verbose=1
+"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b0b1b.dir/objects.a
+E:\CodeBlocks\CB\MinGW\bin\ar.exe cr CMakeFiles\cmTC_b0b1b.dir/objects.a @CMakeFiles\cmTC_b0b1b.dir\objects1.rsp
+E:\CodeBlocks\CB\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_b0b1b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b0b1b.exe -Wl,--out-implib,libcmTC_b0b1b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b0b1b.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the pthread_create exist passed with the following output:
 Change Dir: E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe" "cmTC_bba11/fast"
+Run Build Command:"E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe" "cmTC_63fc4/fast"
+E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_63fc4.dir\build.make CMakeFiles/cmTC_63fc4.dir/build
 mingw32-make.exe[1]: Entering directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
-E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_bba11.dir\build.make CMakeFiles/cmTC_bba11.dir/build
-mingw32-make.exe[2]: Entering directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bba11.dir/CheckSymbolExists.c.obj
-E:\CodeBlocks\CB\MinGW\bin\gcc.exe   -std=gnu99 -o CMakeFiles\cmTC_bba11.dir\CheckSymbolExists.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
-Linking C executable cmTC_bba11.exe
-"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bba11.dir\link.txt --verbose=1
-"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_bba11.dir/objects.a
-E:\CodeBlocks\CB\MinGW\bin\ar.exe cr CMakeFiles\cmTC_bba11.dir/objects.a @CMakeFiles\cmTC_bba11.dir\objects1.rsp
-E:\CodeBlocks\CB\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_bba11.dir/objects.a -Wl,--no-whole-archive  -o cmTC_bba11.exe -Wl,--out-implib,libcmTC_bba11.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_bba11.dir\linklibs.rsp
-mingw32-make.exe[2]: Leaving directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63fc4.dir/CheckSymbolExists.c.obj
+E:\CodeBlocks\CB\MinGW\bin\gcc.exe   -std=gnu99 -o CMakeFiles\cmTC_63fc4.dir\CheckSymbolExists.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+Linking C executable cmTC_63fc4.exe
+"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_63fc4.dir\link.txt --verbose=1
+"E:\Clion\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_63fc4.dir/objects.a
+E:\CodeBlocks\CB\MinGW\bin\ar.exe cr CMakeFiles\cmTC_63fc4.dir/objects.a @CMakeFiles\cmTC_63fc4.dir\objects1.rsp
+E:\CodeBlocks\CB\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_63fc4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_63fc4.exe -Wl,--out-implib,libcmTC_63fc4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_63fc4.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 File E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:

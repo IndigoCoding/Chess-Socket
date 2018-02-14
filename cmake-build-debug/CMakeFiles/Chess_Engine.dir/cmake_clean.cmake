@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj"
   "CMakeFiles/Chess_Engine.dir/engine/main.c.obj"
   "CMakeFiles/Chess_Engine.dir/engine/init.c.obj"
   "CMakeFiles/Chess_Engine.dir/engine/bitboards.c.obj"

@@ -56,9 +56,33 @@ include CMakeFiles/Chess_Engine.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Chess_Engine.dir/flags.make
 
+CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj: CMakeFiles/Chess_Engine.dir/flags.make
+CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj: ../engine/wincheck.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj"
+	E:\CodeBlocks\CB\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Chess_Engine.dir\engine\wincheck.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\engine\wincheck.c"
+
+CMakeFiles/Chess_Engine.dir/engine/wincheck.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Chess_Engine.dir/engine/wincheck.c.i"
+	E:\CodeBlocks\CB\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\HUST\Term8\Computer Network\Chess-Socket\engine\wincheck.c" > CMakeFiles\Chess_Engine.dir\engine\wincheck.c.i
+
+CMakeFiles/Chess_Engine.dir/engine/wincheck.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Chess_Engine.dir/engine/wincheck.c.s"
+	E:\CodeBlocks\CB\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\HUST\Term8\Computer Network\Chess-Socket\engine\wincheck.c" -o CMakeFiles\Chess_Engine.dir\engine\wincheck.c.s
+
+CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj.requires:
+
+.PHONY : CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj.requires
+
+CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj.provides: CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj.requires
+	$(MAKE) -f CMakeFiles\Chess_Engine.dir\build.make CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj.provides.build
+.PHONY : CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj.provides
+
+CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj.provides.build: CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj
+
+
 CMakeFiles/Chess_Engine.dir/engine/main.c.obj: CMakeFiles/Chess_Engine.dir/flags.make
 CMakeFiles/Chess_Engine.dir/engine/main.c.obj: ../engine/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Chess_Engine.dir/engine/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Chess_Engine.dir/engine/main.c.obj"
 	E:\CodeBlocks\CB\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Chess_Engine.dir\engine\main.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\engine\main.c"
 
 CMakeFiles/Chess_Engine.dir/engine/main.c.i: cmake_force
@@ -82,7 +106,7 @@ CMakeFiles/Chess_Engine.dir/engine/main.c.obj.provides.build: CMakeFiles/Chess_E
 
 CMakeFiles/Chess_Engine.dir/engine/init.c.obj: CMakeFiles/Chess_Engine.dir/flags.make
 CMakeFiles/Chess_Engine.dir/engine/init.c.obj: ../engine/init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Chess_Engine.dir/engine/init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Chess_Engine.dir/engine/init.c.obj"
 	E:\CodeBlocks\CB\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Chess_Engine.dir\engine\init.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\engine\init.c"
 
 CMakeFiles/Chess_Engine.dir/engine/init.c.i: cmake_force
@@ -106,7 +130,7 @@ CMakeFiles/Chess_Engine.dir/engine/init.c.obj.provides.build: CMakeFiles/Chess_E
 
 CMakeFiles/Chess_Engine.dir/engine/bitboards.c.obj: CMakeFiles/Chess_Engine.dir/flags.make
 CMakeFiles/Chess_Engine.dir/engine/bitboards.c.obj: ../engine/bitboards.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Chess_Engine.dir/engine/bitboards.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Chess_Engine.dir/engine/bitboards.c.obj"
 	E:\CodeBlocks\CB\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Chess_Engine.dir\engine\bitboards.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\engine\bitboards.c"
 
 CMakeFiles/Chess_Engine.dir/engine/bitboards.c.i: cmake_force
@@ -130,7 +154,7 @@ CMakeFiles/Chess_Engine.dir/engine/bitboards.c.obj.provides.build: CMakeFiles/Ch
 
 CMakeFiles/Chess_Engine.dir/engine/hashkeys.c.obj: CMakeFiles/Chess_Engine.dir/flags.make
 CMakeFiles/Chess_Engine.dir/engine/hashkeys.c.obj: ../engine/hashkeys.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Chess_Engine.dir/engine/hashkeys.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Chess_Engine.dir/engine/hashkeys.c.obj"
 	E:\CodeBlocks\CB\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Chess_Engine.dir\engine\hashkeys.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\engine\hashkeys.c"
 
 CMakeFiles/Chess_Engine.dir/engine/hashkeys.c.i: cmake_force
@@ -154,7 +178,7 @@ CMakeFiles/Chess_Engine.dir/engine/hashkeys.c.obj.provides.build: CMakeFiles/Che
 
 CMakeFiles/Chess_Engine.dir/engine/board.c.obj: CMakeFiles/Chess_Engine.dir/flags.make
 CMakeFiles/Chess_Engine.dir/engine/board.c.obj: ../engine/board.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Chess_Engine.dir/engine/board.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Chess_Engine.dir/engine/board.c.obj"
 	E:\CodeBlocks\CB\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Chess_Engine.dir\engine\board.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\engine\board.c"
 
 CMakeFiles/Chess_Engine.dir/engine/board.c.i: cmake_force
@@ -178,7 +202,7 @@ CMakeFiles/Chess_Engine.dir/engine/board.c.obj.provides.build: CMakeFiles/Chess_
 
 CMakeFiles/Chess_Engine.dir/engine/data.c.obj: CMakeFiles/Chess_Engine.dir/flags.make
 CMakeFiles/Chess_Engine.dir/engine/data.c.obj: ../engine/data.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Chess_Engine.dir/engine/data.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Chess_Engine.dir/engine/data.c.obj"
 	E:\CodeBlocks\CB\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Chess_Engine.dir\engine\data.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\engine\data.c"
 
 CMakeFiles/Chess_Engine.dir/engine/data.c.i: cmake_force
@@ -202,7 +226,7 @@ CMakeFiles/Chess_Engine.dir/engine/data.c.obj.provides.build: CMakeFiles/Chess_E
 
 CMakeFiles/Chess_Engine.dir/engine/attack.c.obj: CMakeFiles/Chess_Engine.dir/flags.make
 CMakeFiles/Chess_Engine.dir/engine/attack.c.obj: ../engine/attack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Chess_Engine.dir/engine/attack.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Chess_Engine.dir/engine/attack.c.obj"
 	E:\CodeBlocks\CB\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Chess_Engine.dir\engine\attack.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\engine\attack.c"
 
 CMakeFiles/Chess_Engine.dir/engine/attack.c.i: cmake_force
@@ -226,7 +250,7 @@ CMakeFiles/Chess_Engine.dir/engine/attack.c.obj.provides.build: CMakeFiles/Chess
 
 CMakeFiles/Chess_Engine.dir/engine/io.c.obj: CMakeFiles/Chess_Engine.dir/flags.make
 CMakeFiles/Chess_Engine.dir/engine/io.c.obj: ../engine/io.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Chess_Engine.dir/engine/io.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Chess_Engine.dir/engine/io.c.obj"
 	E:\CodeBlocks\CB\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Chess_Engine.dir\engine\io.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\engine\io.c"
 
 CMakeFiles/Chess_Engine.dir/engine/io.c.i: cmake_force
@@ -250,7 +274,7 @@ CMakeFiles/Chess_Engine.dir/engine/io.c.obj.provides.build: CMakeFiles/Chess_Eng
 
 CMakeFiles/Chess_Engine.dir/engine/movegen.c.obj: CMakeFiles/Chess_Engine.dir/flags.make
 CMakeFiles/Chess_Engine.dir/engine/movegen.c.obj: ../engine/movegen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Chess_Engine.dir/engine/movegen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Chess_Engine.dir/engine/movegen.c.obj"
 	E:\CodeBlocks\CB\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Chess_Engine.dir\engine\movegen.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\engine\movegen.c"
 
 CMakeFiles/Chess_Engine.dir/engine/movegen.c.i: cmake_force
@@ -274,7 +298,7 @@ CMakeFiles/Chess_Engine.dir/engine/movegen.c.obj.provides.build: CMakeFiles/Ches
 
 CMakeFiles/Chess_Engine.dir/engine/validate.c.obj: CMakeFiles/Chess_Engine.dir/flags.make
 CMakeFiles/Chess_Engine.dir/engine/validate.c.obj: ../engine/validate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Chess_Engine.dir/engine/validate.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Chess_Engine.dir/engine/validate.c.obj"
 	E:\CodeBlocks\CB\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Chess_Engine.dir\engine\validate.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\engine\validate.c"
 
 CMakeFiles/Chess_Engine.dir/engine/validate.c.i: cmake_force
@@ -298,7 +322,7 @@ CMakeFiles/Chess_Engine.dir/engine/validate.c.obj.provides.build: CMakeFiles/Che
 
 CMakeFiles/Chess_Engine.dir/engine/makemove.c.obj: CMakeFiles/Chess_Engine.dir/flags.make
 CMakeFiles/Chess_Engine.dir/engine/makemove.c.obj: ../engine/makemove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Chess_Engine.dir/engine/makemove.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Chess_Engine.dir/engine/makemove.c.obj"
 	E:\CodeBlocks\CB\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Chess_Engine.dir\engine\makemove.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\engine\makemove.c"
 
 CMakeFiles/Chess_Engine.dir/engine/makemove.c.i: cmake_force
@@ -322,7 +346,7 @@ CMakeFiles/Chess_Engine.dir/engine/makemove.c.obj.provides.build: CMakeFiles/Che
 
 CMakeFiles/Chess_Engine.dir/engine/perft.c.obj: CMakeFiles/Chess_Engine.dir/flags.make
 CMakeFiles/Chess_Engine.dir/engine/perft.c.obj: ../engine/perft.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Chess_Engine.dir/engine/perft.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Chess_Engine.dir/engine/perft.c.obj"
 	E:\CodeBlocks\CB\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Chess_Engine.dir\engine\perft.c.obj   -c "E:\HUST\Term8\Computer Network\Chess-Socket\engine\perft.c"
 
 CMakeFiles/Chess_Engine.dir/engine/perft.c.i: cmake_force
@@ -346,6 +370,7 @@ CMakeFiles/Chess_Engine.dir/engine/perft.c.obj.provides.build: CMakeFiles/Chess_
 
 # Object files for target Chess_Engine
 Chess_Engine_OBJECTS = \
+"CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj" \
 "CMakeFiles/Chess_Engine.dir/engine/main.c.obj" \
 "CMakeFiles/Chess_Engine.dir/engine/init.c.obj" \
 "CMakeFiles/Chess_Engine.dir/engine/bitboards.c.obj" \
@@ -362,6 +387,7 @@ Chess_Engine_OBJECTS = \
 # External object files for target Chess_Engine
 Chess_Engine_EXTERNAL_OBJECTS =
 
+Chess_Engine.exe: CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj
 Chess_Engine.exe: CMakeFiles/Chess_Engine.dir/engine/main.c.obj
 Chess_Engine.exe: CMakeFiles/Chess_Engine.dir/engine/init.c.obj
 Chess_Engine.exe: CMakeFiles/Chess_Engine.dir/engine/bitboards.c.obj
@@ -378,7 +404,7 @@ Chess_Engine.exe: CMakeFiles/Chess_Engine.dir/build.make
 Chess_Engine.exe: CMakeFiles/Chess_Engine.dir/linklibs.rsp
 Chess_Engine.exe: CMakeFiles/Chess_Engine.dir/objects1.rsp
 Chess_Engine.exe: CMakeFiles/Chess_Engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking C executable Chess_Engine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\HUST\Term8\Computer Network\Chess-Socket\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking C executable Chess_Engine.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Chess_Engine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -386,6 +412,7 @@ CMakeFiles/Chess_Engine.dir/build: Chess_Engine.exe
 
 .PHONY : CMakeFiles/Chess_Engine.dir/build
 
+CMakeFiles/Chess_Engine.dir/requires: CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj.requires
 CMakeFiles/Chess_Engine.dir/requires: CMakeFiles/Chess_Engine.dir/engine/main.c.obj.requires
 CMakeFiles/Chess_Engine.dir/requires: CMakeFiles/Chess_Engine.dir/engine/init.c.obj.requires
 CMakeFiles/Chess_Engine.dir/requires: CMakeFiles/Chess_Engine.dir/engine/bitboards.c.obj.requires

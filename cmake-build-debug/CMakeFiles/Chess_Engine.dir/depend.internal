@@ -37,3 +37,6 @@ CMakeFiles/Chess_Engine.dir/engine/perft.c.obj
 CMakeFiles/Chess_Engine.dir/engine/validate.c.obj
  E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h
  E:/HUST/Term8/Computer Network/Chess-Socket/engine/validate.c
+CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj
+ E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h
+ E:/HUST/Term8/Computer Network/Chess-Socket/engine/wincheck.c

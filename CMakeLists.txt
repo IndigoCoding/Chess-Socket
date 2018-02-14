@@ -3,7 +3,7 @@
 #
 #set(CMAKE_C_STANDARD 99)
 #
-#add_executable(Chess_Engine engine/main.c engine/init.c engine/defs.h engine/bitboards.c engine/hashkeys.c engine/board.c engine/data.c engine/attack.c engine/io.c engine/movegen.c engine/validate.c engine/makemove.c engine/perft.c)
+#add_executable(Chess_Engine engine/wincheck.c engine/main.c engine/init.c engine/defs.h engine/bitboards.c engine/hashkeys.c engine/board.c engine/data.c engine/attack.c engine/io.c engine/movegen.c engine/validate.c engine/makemove.c engine/perft.c)
 
 cmake_minimum_required(VERSION 3.9)
 project(chess C)
@@ -34,6 +34,7 @@ add_executable(chess
         engine/validate.c
         engine/makemove.c
         engine/perft.c
+        engine/wincheck.c
         gui/init.h gui/initSDL.c)
 
 include_directories(${SDL2_INCLUDE_DIR}

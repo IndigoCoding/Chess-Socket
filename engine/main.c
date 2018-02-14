@@ -10,9 +10,9 @@ int main() {
     S_BOARD board[1];
     S_MOVELIST list[1];
 
-//    parseFen(START_FEN,board);
-    parseFen(PERFTFEN,board);
-//    perftTest(5,board);
+    parseFen(START_FEN,board);
+//    parseFen(PERFTFEN,board);
+    perftTest(5,board);
     char input[6];
     int move = NOMOVE;
     while (TRUE) {
@@ -27,10 +27,15 @@ int main() {
             move = parseMove(input, board);
             if (move != NOMOVE) {
                 makeMove(board, move);
+                if (isCheckmated(board)) {
+                    printf("CHECKMATED\n");
+                    return 1;
+                }
             }
         }
         fflush(stdin);
     }
+//    takeMove(board);
     return 0;
 
 }
