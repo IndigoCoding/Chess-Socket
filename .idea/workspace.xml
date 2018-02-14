@@ -11,9 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06c69f1c-d83f-4889-b734-99f847178d64" name="Default" comment="add wincheck from engine">
+    <list default="true" id="06c69f1c-d83f-4889-b734-99f847178d64" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.exe" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
@@ -43,21 +42,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Network_Programming.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Network_Programming.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
-      <change beforePath="$PROJECT_DIR$/engine/attack.c" afterPath="$PROJECT_DIR$/engine/attack.c" />
-      <change beforePath="$PROJECT_DIR$/engine/bitboards.c" afterPath="$PROJECT_DIR$/engine/bitboards.c" />
-      <change beforePath="$PROJECT_DIR$/engine/board.c" afterPath="$PROJECT_DIR$/engine/board.c" />
-      <change beforePath="$PROJECT_DIR$/engine/data.c" afterPath="$PROJECT_DIR$/engine/data.c" />
-      <change beforePath="$PROJECT_DIR$/engine/defs.h" afterPath="$PROJECT_DIR$/engine/defs.h" />
-      <change beforePath="$PROJECT_DIR$/engine/hashkeys.c" afterPath="$PROJECT_DIR$/engine/hashkeys.c" />
-      <change beforePath="$PROJECT_DIR$/engine/init.c" afterPath="$PROJECT_DIR$/engine/init.c" />
-      <change beforePath="$PROJECT_DIR$/engine/io.c" afterPath="$PROJECT_DIR$/engine/io.c" />
-      <change beforePath="$PROJECT_DIR$/engine/main.c" afterPath="$PROJECT_DIR$/engine/main.c" />
-      <change beforePath="$PROJECT_DIR$/engine/makemove.c" afterPath="$PROJECT_DIR$/engine/makemove.c" />
-      <change beforePath="$PROJECT_DIR$/engine/movegen.c" afterPath="$PROJECT_DIR$/engine/movegen.c" />
-      <change beforePath="$PROJECT_DIR$/engine/perft.c" afterPath="$PROJECT_DIR$/engine/perft.c" />
-      <change beforePath="$PROJECT_DIR$/engine/perftsuite.epd" afterPath="$PROJECT_DIR$/engine/perftsuite.epd" />
-      <change beforePath="$PROJECT_DIR$/engine/validate.c" afterPath="$PROJECT_DIR$/engine/validate.c" />
-      <change beforePath="$PROJECT_DIR$/gui/init.h" afterPath="$PROJECT_DIR$/gui/init.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -387,11 +371,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517321640598</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add wincheck from engine">
+      <created>1518628581590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518628581590</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73302000" />
+    <option name="totallyTimeSpent" value="73320000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
