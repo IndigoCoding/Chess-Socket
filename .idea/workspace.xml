@@ -334,7 +334,7 @@
       <workItem from="1518613504947" duration="210000" />
       <workItem from="1518613990536" duration="154000" />
       <workItem from="1518622532396" duration="26000" />
-      <workItem from="1519696689221" duration="50000" />
+      <workItem from="1519696689221" duration="115000" />
     </task>
     <task id="LOCAL-00001" summary="add client, server and engine folder">
       <created>1517321640598</created>
@@ -357,11 +357,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518628587323</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="gui">
+      <created>1519696761425</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1519696761425</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73391000" />
+    <option name="totallyTimeSpent" value="73456000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -425,7 +432,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add client, server and engine folder" />
     <MESSAGE value="add wincheck from engine" />
-    <option name="LAST_COMMIT_MESSAGE" value="add wincheck from engine" />
+    <MESSAGE value="gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="gui" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
