@@ -36,11 +36,11 @@ int main() {
 //    }
     // TODO huong dan su dung ham:
     // tao 1 list moi
-    S_MOVELIST list[1];
+
     // goi generatePieceMove
     // dung list->count de iterate qua tung move trong list
-    generatePieceMoves(board, list, 92);
-    printf("SIZE %d", list->count);
+    S_MOVELIST list = generatePieceMoves(board, 22);
+    printf("SIZE %d", list.count);
 //    takeMove(board);
     return 0;
 
