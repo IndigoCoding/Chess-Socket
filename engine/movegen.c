@@ -307,3 +307,30 @@ void generateAllMoves(const S_BOARD *pos, S_MOVELIST *list) {
         pce = loopNonSlidePiece[pceIndex++];
     }
 }
+
+S_MOVELIST generatePieceMoves(S_BOARD *pos, const int piecePos) {
+    ASSERT(sqOnBoard(piecePos));
+    S_MOVELIST list;
+    S_MOVELIST moveList[1];
+    generateAllMoves(pos, moveList);
+    list.count = 0;
+    int i;
+    for (i = 0; i < moveList->count; i++) {
+        S_MOVE move = moveList->moves[i];
+        if (FROMSQ(move.move) == piecePos) {
+            if (!sqAttacked(pos->kingSq[pos->side], pos->side^1, pos)) {
+                list.moves[list.count].move = move.move;
+                list.moves[list.count].score = move.score;
+                list.count++;
+            } else {
+                if (makeMove(pos, move.move)) {
+                    takeMove(pos);
+                    list.moves[list.count].move = move.move;
+                    list.moves[list.count].score = move.score;
+                    list.count++;
+                }
+            }
+        }
+    }
+    return list;
+}

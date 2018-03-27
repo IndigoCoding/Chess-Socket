@@ -8,33 +8,39 @@ int main() {
     initAll();
 
     S_BOARD board[1];
-    S_MOVELIST list[1];
 
     parseFen(START_FEN,board);
 //    parseFen(PERFTFEN,board);
     perftTest(5,board);
     char input[6];
     int move = NOMOVE;
-    while (TRUE) {
-        printBoard(board);
-        printf("Enter move: ");
-        fgets(input, 6, stdin);
-        if (input[0] == 'q') {
-            break;
-        } else if (input[0] == 't') {
-            takeMove(board);
-        } else {
-            move = parseMove(input, board);
-            if (move != NOMOVE) {
-                makeMove(board, move);
-                if (isCheckmated(board)) {
-                    printf("CHECKMATED\n");
-                    return 1;
-                }
-            }
-        }
-        fflush(stdin);
-    }
+//    while (TRUE) {
+//        printBoard(board);
+//        printf("Enter move: ");
+//        fgets(input, 6, stdin);
+//        if (input[0] == 'q') {
+//            break;
+//        } else if (input[0] == 't') {
+//            takeMove(board);
+//        } else {
+//            move = parseMove(input, board);
+//            if (move != NOMOVE) {
+//                makeMove(board, move);
+//                if (isCheckmated(board)) {
+//                    printf("CHECKMATED\n");
+//                    return 1;
+//                }
+//            }
+//        }
+//        fflush(stdin);
+//    }
+    // TODO huong dan su dung ham:
+    // tao 1 list moi
+
+    // goi generatePieceMove
+    // dung list->count de iterate qua tung move trong list
+    S_MOVELIST list = generatePieceMoves(board, 22);
+    printf("SIZE %d", list.count);
 //    takeMove(board);
     return 0;
 
