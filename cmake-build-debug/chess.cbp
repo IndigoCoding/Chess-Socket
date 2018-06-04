@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="chess"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\gui\;CMake Files\gui\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chess">
+				<Option output="E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/chess.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="E:/HUST/Term8/Computer Network/SDL2/SDL2_image-2.0.2/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="E:/HUST/Term8/Computer Network/SDL2/SDL2_mixer-2.0.2/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 chess"/>
+					<CompileFile command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chess/fast">
+				<Option output="E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/chess.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="E:/HUST/Term8/Computer Network/SDL2/SDL2_image-2.0.2/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="E:/HUST/Term8/Computer Network/SDL2/SDL2_mixer-2.0.2/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/CodeBlocks/CB/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 chess/fast"/>
+					<CompileFile command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CodeBlocks/CB/MinGW/bin/mingw32-make.exe -f &quot;E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/engine/attack.c">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/engine/bitboards.c">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/engine/board.c">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/engine/data.c">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/engine/hashkeys.c">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/engine/init.c">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/engine/io.c">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/engine/makemove.c">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/engine/movegen.c">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/engine/perft.c">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/engine/validate.c">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/engine/wincheck.c">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/gui/draw.c">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/gui/draw.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/gui/init.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/gui/initSDL.c">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/gui/mainGUI.c">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/gui/move.c">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/gui/move.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/gui/cmake/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\gui\cmake\"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/gui/cmake/FindSDL2_image.cmake">
+			<Option virtualFolder="CMake Files\gui\cmake\"/>
+		</Unit>
+		<Unit filename="E:/HUST/Term8/Computer Network/Chess-Socket/gui/cmake/FindSDL2_mixer.cmake">
+			<Option virtualFolder="CMake Files\gui\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

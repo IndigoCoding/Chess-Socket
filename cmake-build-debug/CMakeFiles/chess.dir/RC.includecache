@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/HUST/Term8/Computer Network/Chess-Socket/client/login/ctl_one.rc
+resource.h
+E:/HUST/Term8/Computer Network/Chess-Socket/client/login/resource.h
+windows.h
+E:/HUST/Term8/Computer Network/Chess-Socket/client/login/windows.h
+
+E:/HUST/Term8/Computer Network/Chess-Socket/client/login/resource.h
+

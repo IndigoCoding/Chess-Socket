@@ -3,6 +3,7 @@
 #include <SDL_mixer.h>
 #include <stdio.h>
 #include <stdbool.h>
+#include <string.h>
 #include "draw.h"
 #include "move.h"
 #include "../engine/defs.h"
@@ -41,6 +42,8 @@ int main(int argc, char *args[]) {
             //Update screen
             SDL_RenderPresent(gRenderer);
 
+            char *moveEvent;
+
             //While application is running
             while (!quit) {
                 //Handle events on queue
@@ -52,8 +55,13 @@ int main(int argc, char *args[]) {
                     if (e.type == SDL_MOUSEBUTTONDOWN) {
                         int x,y;
                         SDL_GetMouseState(&x, &y);
-                        printf("Position: %d-%d\n", x, y);
-                        handleMoveEvent(x, y, board);
+//                        printf("Position: %d-%d\n", x, y);
+//                        handleMoveEvent(x, y, board);
+//                        strcpy(moveEvent, handleMoveEvent(x, y, board));
+//                        printf("moveEvent: %s\n", moveEvent);
+                        moveEvent = handleMoveEvent(x, y, board);
+                        printf("handle: %s\n", moveEvent);
+                        free(moveEvent);
                     }
                 }
             }

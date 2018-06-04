@@ -3,6 +3,7 @@
 //
 
 #include <stdio.h>
+#include <string.h>
 #include <stdbool.h>
 #include <malloc.h>
 #include <mem.h>
@@ -24,7 +25,7 @@ void printBoardInfo() {
     }
 }
 
-void handleMoveEvent(int x, int y, S_BOARD *board) {
+char* handleMoveEvent(int x, int y, S_BOARD *board) {
     if (x > BOARD_WIDTH / 10 && x < BOARD_WIDTH * 9 / 10 && y > BOARD_HEIGHT / 10 && y < BOARD_HEIGHT * 9 / 10) {
         int col = x * 10 / BOARD_WIDTH;
         int row = y * 10 / BOARD_HEIGHT;
@@ -44,9 +45,12 @@ void handleMoveEvent(int x, int y, S_BOARD *board) {
                 current_row = row;
                 current_col = col;
             }
+            return "0";
         } else {
             if (row != current_row || col != current_col) {
-                int move = parseMove(convertMove(current_col, current_row, col, row), board);
+                char *temp = malloc(5);
+                convertMove(current_col, current_row, col, row, temp);
+                int move = parseMove(temp, board);
                 if (move == NOMOVE) {
                     Mix_PlayChannel(-1, gHigh, 0);
                     SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "Move", "Invalid Move", gWindow);
@@ -54,7 +58,7 @@ void handleMoveEvent(int x, int y, S_BOARD *board) {
                     int done = makeMove(board, move);
                     if (done == TRUE) {
                         engineToGUI(board->pieces);
-                        printf("Move executed: %s\n", convertMove(current_col, current_row, col, row));
+//                        printf("Move executed: %s\n", convertMove(current_col, current_row, col, row));
 
                         Mix_PlayChannel(-1, gLow, 0);
 
@@ -62,12 +66,12 @@ void handleMoveEvent(int x, int y, S_BOARD *board) {
                         drawTurn(sideChar[board->side]);
                         SDL_RenderPresent(gRenderer);
 
-                        if (isCheckmated(board)){
+                        if (isCheckmated(board)) {
                             Mix_PlayChannel(-1, gHigh, 0);
-                            if (sideChar[board->side] == 'b'){
+                            if (sideChar[board->side] == 'b') {
                                 SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_INFORMATION, "WIN", "WHITE WIN", gWindow);
                             }
-                            if (sideChar[board->side] == 'w'){
+                            if (sideChar[board->side] == 'w') {
                                 SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_INFORMATION, "WIN", "BLACK WIN", gWindow);
                             }
                         }
@@ -82,6 +86,10 @@ void handleMoveEvent(int x, int y, S_BOARD *board) {
                 selected = 0;
                 current_row = 0;
                 current_col = 0;
+
+                printf("temp: %s\n", temp);
+//                return "0";
+                return temp;
             } else {
 //                SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "Move error", "Can't stand still", gWindow);
                 squares_status[current_row * 10 + current_col] = 0;
@@ -89,16 +97,19 @@ void handleMoveEvent(int x, int y, S_BOARD *board) {
                 selected = 0;
                 current_row = 0;
                 current_col = 0;
+                return "0";
             }
         }
-        return;
+//        return;
     } else {
-        if (x > SCREEN_WIDTH * 11 / 15 && x < SCREEN_WIDTH * 14 / 15 && y > SCREEN_HEIGHT * 4 / 10 &&
-            y < SCREEN_HEIGHT * 5 / 10) {
-            printf("CLICKED on undo button\n");
-            handleUndoButton(board);
+        if (x > SCREEN_WIDTH * 11 / 15 && x < SCREEN_WIDTH * 14 / 15 && y > SCREEN_HEIGHT * 6 / 10 &&
+            y < SCREEN_HEIGHT * 7 / 10) {
+            printf("CLICKED on surrender button\n");
+            SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "Surrender", "You lose!", gWindow);
+            return "surrender";
         }
-        return;
+        return "0";
+//        return;
     }
 }
 
@@ -148,10 +159,10 @@ void highLightSquare() {
     SDL_RenderPresent(gRenderer);
 }
 
-char *convertMove(int s_col, int s_row, int d_col, int d_row) {
-    char *move = malloc(5);
+void convertMove(int s_col, int s_row, int d_col, int d_row, char* move) {
+//    char *move = malloc(5);
     sprintf(move, "%c%d%c%d", 96 + s_col, 9 - s_row, 96 + d_col, 9 - d_row);
-    return move;
+//    return move;
 }
 
 void changePieces(int s_col, int s_row, int d_col, int d_row) {
