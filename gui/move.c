@@ -49,7 +49,7 @@ void handleMoveEvent(int x, int y, S_BOARD *board) {
                 int move = parseMove(convertMove(current_col, current_row, col, row), board);
                 if (move == NOMOVE) {
                     Mix_PlayChannel(-1, gHigh, 0);
-                    SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "Move", "Invalid move", gWindow);
+                    SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "Move", "Invalid Move", gWindow);
                 } else {
                     int done = makeMove(board, move);
                     if (done == TRUE) {
@@ -70,11 +70,10 @@ void handleMoveEvent(int x, int y, S_BOARD *board) {
                             if (sideChar[board->side] == 'w'){
                                 SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_INFORMATION, "WIN", "BLACK WIN", gWindow);
                             }
-
                         }
                     } else {
                         Mix_PlayChannel(-1, gHigh, 0);
-                        SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "Move", "Wrong move!", gWindow);
+                        SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "Move", "Invalid Move!", gWindow);
                     }
                 }
                 drawCurrentBoard();

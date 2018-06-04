@@ -190,12 +190,6 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //mwindows for MinGW
 MINGW32_LIBRARY:STRING=mingw32;-mwindows
 
-//Value Computed by CMake
-Network_Programming_BINARY_DIR:STATIC=E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug
-
-//Value Computed by CMake
-Network_Programming_SOURCE_DIR:STATIC=E:/HUST/Term8/Computer Network/Chess-Socket
-
 //Path to a library.
 SDL2MAIN_LIBRARY:FILEPATH=E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a
 
@@ -378,7 +372,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 SDL2_IMAGE_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SDL2_IMAGE_LIBRARY
 SDL2_IMAGE_LIBRARY-ADVANCED:INTERNAL=1
-SDL2_LIBRARY_TEMP:INTERNAL=mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2.dll.a
+SDL2_LIBRARY_TEMP:INTERNAL=mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2main.a;E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/lib/libSDL2.dll.a
 //ADVANCED property for variable: SDL2_MIXER_INCLUDE_DIR
 SDL2_MIXER_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SDL2_MIXER_LIBRARY

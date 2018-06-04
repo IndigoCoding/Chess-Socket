@@ -291,13 +291,13 @@ void drawCurrentBoard() {
 void initRightButtons() {
     turn_button = (SDL_Rect) {SCREEN_WIDTH * 11 / 15, SCREEN_HEIGHT * 2 / 10, SCREEN_WIDTH * 3 / 15,
                               SCREEN_HEIGHT / 10};
-    undo_button = (SDL_Rect) {SCREEN_WIDTH * 11 / 15, SCREEN_HEIGHT * 4 / 10, SCREEN_WIDTH * 3 / 15,
-                              SCREEN_HEIGHT / 10};
+//    undo_button = (SDL_Rect) {SCREEN_WIDTH * 11 / 15, SCREEN_HEIGHT * 4 / 10, SCREEN_WIDTH * 3 / 15,
+//                              SCREEN_HEIGHT / 10};
     surrender_button = (SDL_Rect) {SCREEN_WIDTH * 11 / 15, SCREEN_HEIGHT * 6 / 10, SCREEN_WIDTH * 3 / 15,
                                    SCREEN_HEIGHT / 10};
     SDL_SetRenderDrawColor(gRenderer, 0x00, 0x00, 0x00, 0xFF);
     SDL_RenderFillRect(gRenderer, &turn_button);
-    SDL_RenderFillRect(gRenderer, &undo_button);
+//    SDL_RenderFillRect(gRenderer, &undo_button);
     SDL_RenderFillRect(gRenderer, &surrender_button);
 }
 

@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj"
   "CMakeFiles/Chess_Engine.dir/engine/main.c.obj"
   "CMakeFiles/Chess_Engine.dir/engine/init.c.obj"
   "CMakeFiles/Chess_Engine.dir/engine/bitboards.c.obj"
@@ -12,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Chess_Engine.dir/engine/validate.c.obj"
   "CMakeFiles/Chess_Engine.dir/engine/makemove.c.obj"
   "CMakeFiles/Chess_Engine.dir/engine/perft.c.obj"
+  "CMakeFiles/Chess_Engine.dir/engine/wincheck.c.obj"
   "Chess_Engine.pdb"
   "Chess_Engine.exe"
   "Chess_Engine.exe.manifest"

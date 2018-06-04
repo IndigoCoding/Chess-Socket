@@ -22,6 +22,9 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "E:/HUST/Term8/Computer Network/SDL2/SDL2-2.0.7/i686-w64-mingw32/include/SDL2"
+  "E:/HUST/Term8/Computer Network/SDL2/SDL2_image-2.0.2/i686-w64-mingw32/include/SDL2"
+  "E:/HUST/Term8/Computer Network/SDL2/SDL2_mixer-2.0.2/i686-w64-mingw32/include/SDL2"
   )
 
 # Targets to which this target links.
