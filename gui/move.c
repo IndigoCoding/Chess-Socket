@@ -54,6 +54,7 @@ char* handleMoveEvent(int x, int y, S_BOARD *board) {
                 if (move == NOMOVE) {
                     Mix_PlayChannel(-1, gHigh, 0);
                     SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "Move", "Invalid Move", gWindow);
+                    drawCurrentBoard();
                 } else {
                     int done = makeMove(board, move);
                     if (done == TRUE) {
@@ -65,6 +66,8 @@ char* handleMoveEvent(int x, int y, S_BOARD *board) {
                         //Change turn
                         drawTurn(sideChar[board->side]);
                         SDL_RenderPresent(gRenderer);
+
+                        drawCurrentBoard();
 
                         if (isCheckmated(board)) {
                             Mix_PlayChannel(-1, gHigh, 0);
@@ -80,7 +83,7 @@ char* handleMoveEvent(int x, int y, S_BOARD *board) {
                         SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "Move", "Invalid Move!", gWindow);
                     }
                 }
-                drawCurrentBoard();
+//                drawCurrentBoard();
 
                 squares_status[current_row * 10 + current_col] = 0;
                 selected = 0;
@@ -88,7 +91,6 @@ char* handleMoveEvent(int x, int y, S_BOARD *board) {
                 current_col = 0;
 
                 printf("temp: %s\n", temp);
-//                return "0";
                 return temp;
             } else {
 //                SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "Move error", "Can't stand still", gWindow);

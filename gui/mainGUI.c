@@ -59,7 +59,7 @@ int main(int argc, char *args[]) {
 //                        handleMoveEvent(x, y, board);
 //                        strcpy(moveEvent, handleMoveEvent(x, y, board));
 //                        printf("moveEvent: %s\n", moveEvent);
-                        moveEvent = handleMoveEvent(x, y, board);
+                        moveEvent = handleMoveEvent(x, y, board); 
                         printf("handle: %s\n", moveEvent);
                         free(moveEvent);
                     }
