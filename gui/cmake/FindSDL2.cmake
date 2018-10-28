@@ -67,7 +67,7 @@
 
 # message("<FindSDL2.cmake>")
 
-set(SDL2_PATH "E:\\HUST\\Term8\\Computer Network\\SDL2\\SDL2-2.0.7\\i686-w64-mingw32")
+set(SDL2_PATH "F:\\SDL2\\SDL2-2.0.7\\x86_64-w64-mingw32")
 
 SET(SDL2_SEARCH_PATHS ${SDL2_PATH})
 

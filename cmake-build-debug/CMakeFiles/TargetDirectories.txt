@@ -1,3 +1,5 @@
 E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/chess.dir
+E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/server.dir
+E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/client.dir
 E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/HUST/Term8/Computer Network/Chess-Socket/cmake-build-debug/CMakeFiles/rebuild_cache.dir

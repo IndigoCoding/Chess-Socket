@@ -31,6 +31,8 @@ E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h
 E:/HUST/Term8/Computer Network/Chess-Socket/engine/defs.h
 stdlib.h
 E:/HUST/Term8/Computer Network/Chess-Socket/engine/stdlib.h
+windows.h
+-
 
 E:/HUST/Term8/Computer Network/Chess-Socket/engine/hashkeys.c
 stdio.h
@@ -109,6 +111,12 @@ init.h
 E:/HUST/Term8/Computer Network/Chess-Socket/gui/init.h
 draw.h
 E:/HUST/Term8/Computer Network/Chess-Socket/gui/draw.h
+io.h
+-
+fcntl.h
+-
+windows.h
+-
 
 E:/HUST/Term8/Computer Network/Chess-Socket/gui/mainGUI.c
 SDL.h

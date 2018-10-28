@@ -69,15 +69,15 @@ char* handleMoveEvent(int x, int y, S_BOARD *board) {
 
                         drawCurrentBoard();
 
-                        if (isCheckmated(board)) {
-                            Mix_PlayChannel(-1, gHigh, 0);
-                            if (sideChar[board->side] == 'b') {
-                                SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_INFORMATION, "WIN", "WHITE WIN", gWindow);
-                            }
-                            if (sideChar[board->side] == 'w') {
-                                SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_INFORMATION, "WIN", "BLACK WIN", gWindow);
-                            }
-                        }
+//                        if (isCheckmated(board)) {
+//                            Mix_PlayChannel(-1, gHigh, 0);
+//                            if (sideChar[board->side] == 'b') {
+//                                SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_INFORMATION, "WIN", "WHITE WIN", gWindow);
+//                            }
+//                            if (sideChar[board->side] == 'w') {
+//                                SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_INFORMATION, "WIN", "BLACK WIN", gWindow);
+//                            }
+//                        }
                     } else {
                         Mix_PlayChannel(-1, gHigh, 0);
                         SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "Move", "Invalid Move!", gWindow);
@@ -104,17 +104,26 @@ char* handleMoveEvent(int x, int y, S_BOARD *board) {
         }
 //        return;
     } else {
-        if (x > SCREEN_WIDTH * 11 / 15 && x < SCREEN_WIDTH * 14 / 15 && y > SCREEN_HEIGHT * 6 / 10 &&
-            y < SCREEN_HEIGHT * 7 / 10) {
-            printf("CLICKED on surrender button\n");
-            SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "Surrender", "You lose!", gWindow);
-            return "surrender";
-        }
+//        if (x > SCREEN_WIDTH * 11 / 15 && x < SCREEN_WIDTH * 14 / 15 && y > SCREEN_HEIGHT * 6 / 10 &&
+//            y < SCREEN_HEIGHT * 7 / 10) {
+//            printf("CLICKED on surrender button\n");
+//            SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "Surrender", "You lose!", gWindow);
+//            return "surrender";
+//        }
         return "0";
 //        return;
     }
 }
-
+//
+int handleSurrenderButton(int x, int y) {
+    if (x > SCREEN_WIDTH * 11 / 15 && x < SCREEN_WIDTH * 14 / 15 && y > SCREEN_HEIGHT * 6 / 10 &&
+        y < SCREEN_HEIGHT * 7 / 10) {
+        //printf("CLICKED on surrender button\n");
+        //SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "Surrender", "You lose!", gWindow);
+        return 1;
+    }
+    return 0;
+}
 //Handle undo button
 void handleUndoButton(S_BOARD *board) {
     SDL_SetRenderDrawColor(gRenderer, 0x00, 0x00, 0x00, 0xFF);

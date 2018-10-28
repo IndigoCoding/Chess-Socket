@@ -6,7 +6,7 @@
 #define CHESS_DEFS_H
 
 #include "stdlib.h"
-
+#include <windows.h>
 //#define DEBUG
 
 #ifndef DEBUG
@@ -59,9 +59,9 @@ enum {
     A8 = 91, B8, C8, D8, E8, F8, G8, H8, NO_SQ, OFFBOARD
 };
 
-enum {
-    FALSE, TRUE
-};
+//enum {
+//    FALSE, TRUE
+//};
 
 // represent by 4 bit integer
 enum {

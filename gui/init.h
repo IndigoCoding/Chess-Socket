@@ -24,10 +24,13 @@ extern Mix_Chunk *gLow;
 //Init SDL
 bool init();
 
+//Init window
+bool initWindow();
+
 //Init media
 bool loadMedia();
 
 //Release resources
-void close();
+void closeGUI();
 
 #endif //CHESS_AUDIO_H

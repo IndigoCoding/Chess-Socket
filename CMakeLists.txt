@@ -41,7 +41,8 @@ add_executable(chess
         engine/makemove.c
         engine/perft.c
         engine/wincheck.c
-        gui/init.h gui/initSDL.c)
+        gui/init.h
+        gui/initSDL.c)
 
 
 include_directories(${SDL2_INCLUDE_DIR}
@@ -53,6 +54,71 @@ target_link_libraries(chess ${SDL2_LIBRARY}
         ${SDL2_MIXER_LIBRARY}
         )
 
+add_executable(server
+        server/server.c
+        server/utils.h
+        server/utils.c
+        server/constant.h
+        engine/attack.c
+        engine/bitboards.c
+        engine/board.c
+        engine/data.c
+        engine/defs.h
+        engine/hashkeys.c
+        engine/init.c
+        engine/io.c
+        engine/makemove.c
+        engine/movegen.c
+        engine/perft.c
+        engine/validate.c
+        engine/wincheck.c)
+
+target_link_libraries(server ws2_32)
+
+add_executable(client
+        client/client.c
+        client/utils.c
+        client/utils.h
+        gui/draw.c
+        gui/draw.h
+        gui/move.c
+        gui/move.h
+        gui/init.h
+        gui/initSDL.c
+        engine/init.c
+        engine/defs.h
+        engine/bitboards.c
+        engine/hashkeys.c
+        engine/board.c
+        engine/data.c
+        engine/attack.c
+        engine/io.c
+        engine/movegen.c
+        engine/validate.c
+        engine/makemove.c
+        engine/perft.c
+        engine/wincheck.c)
+
+target_link_libraries(client ws2_32)
+target_link_libraries(client ${SDL2_LIBRARY}
+        ${SDL2_IMAGE_LIBRARY}
+        ${SDL2_MIXER_LIBRARY}
+        )
+
+#add_executable(testtest test.c)
+#add_executable(engine engine/attack.c
+#        engine/bitboards.c
+#        engine/board.c
+#        engine/data.c
+#        engine/defs.h
+#        engine/hashkeys.c
+#        engine/init.c
+#        engine/io.c
+#        engine/makemove.c
+#        engine/movegen.c
+#        engine/perft.c
+#        engine/validate.c
+#        engine/main.c)
 #add_executable(Chess_Engine
 #        engine/main.c
 #        engine/init.c

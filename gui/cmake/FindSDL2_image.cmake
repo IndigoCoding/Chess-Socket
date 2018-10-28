@@ -42,7 +42,7 @@
 # (To distribute this file outside of CMake, substitute the full
 #  License text for the above reference.)
 
-set(SDL2_IMAGE_PATH "E:\\HUST\\Term8\\Computer Network\\SDL2\\SDL2_image-2.0.2\\i686-w64-mingw32")
+set(SDL2_IMAGE_PATH "F:\\SDL2\\SDL2_image-2.0.2\\x86_64-w64-mingw32")
 
 find_path(SDL2_IMAGE_INCLUDE_DIR SDL_image.h
         HINTS

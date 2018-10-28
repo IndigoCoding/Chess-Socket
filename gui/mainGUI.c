@@ -9,14 +9,17 @@
 #include "../engine/defs.h"
 #include "init.h"
 
+S_BOARD board[1];
+S_MOVELIST list[1];
+
 int main(int argc, char *args[]) {
     //Integrate engine
     initAll();
-    S_BOARD board[1];
-    S_MOVELIST list[1];
-
+    if (!init()){
+        printf("cant init\n");
+    }
     //Start up SDL and create window
-    if (!init()) {
+    if (!initWindow()) {
         printf("Failed to initialize!\n");
     } else {
         if (!loadMedia()) {
@@ -42,12 +45,10 @@ int main(int argc, char *args[]) {
             //Update screen
             SDL_RenderPresent(gRenderer);
 
-            char *moveEvent;
-
             //While application is running
             while (!quit) {
                 //Handle events on queue
-                while (SDL_PollEvent(&e) != 0) {
+                if(SDL_PollEvent(&e) != 0) {
                     //User requests quit
                     if (e.type == SDL_QUIT) {
                         quit = true;
@@ -55,13 +56,13 @@ int main(int argc, char *args[]) {
                     if (e.type == SDL_MOUSEBUTTONDOWN) {
                         int x,y;
                         SDL_GetMouseState(&x, &y);
-//                        printf("Position: %d-%d\n", x, y);
+                        printf("Position: %d-%d\n", x, y);
 //                        handleMoveEvent(x, y, board);
 //                        strcpy(moveEvent, handleMoveEvent(x, y, board));
 //                        printf("moveEvent: %s\n", moveEvent);
+                        char *moveEvent;
                         moveEvent = handleMoveEvent(x, y, board); 
-                        printf("handle: %s\n", moveEvent);
-                        free(moveEvent);
+//                        printf("handle: %s\n", moveEvent);
                     }
                 }
             }
@@ -69,7 +70,7 @@ int main(int argc, char *args[]) {
     }
 
     //Free resources and close SDL
-    close();
+    closeGUI();
 
     return 0;
 }
